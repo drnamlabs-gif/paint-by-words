@@ -3,9 +3,12 @@
 Ask a cell-image archive for a phenotype in plain English. Get a compound, a dose,
 and the evidence. Or get a refusal.
 
-```
-$ python -m pbw.predict "make the mitochondria dimmer without killing the cells"
-```
+![a wish typed, answered, and checked against the images](figs/00_demo.gif)
+
+Read the two score columns together. The top-ranked compound scores higher on
+"kill the cells" than on the wish itself, and its well has lost two thirds of its
+cells. The compound three rows down scores a fifth as much on toxicity and its
+cells are intact. The ranking alone would have sent you to the first one.
 
 Every answer carries the model's score **next to the score of a baseline that never
 reads the question**, because on this kind of data a good-looking phenotype model is
@@ -31,9 +34,10 @@ connected components, because at high density nuclei touch and merge into one
 component, so component counting undercounts exactly in the wells that matter.
 
 The same compound at its eight doses, rendered on **one brightness scale** taken
-from an untreated well, so the change you see is real and not a contrast artefact:
+from the lowest dose, so the change you see is real and not a contrast artefact.
+This is the archive playing itself; nothing here is modelled:
 
-![one compound across eight doses](figs/02_dose_series.png)
+![one compound climbing its dose ladder](figs/01_dose.gif)
 
 ---
 

@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paint-by-words"
+version = "0.1.0"
+description = "Ask a cell-image archive for a phenotype in plain English; get a compound, a dose, and the evidence, or a refusal."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Nam H. Le" }]
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "pyarrow>=14",
+    "scipy>=1.10",
+    "scikit-learn>=1.3",
+    "pillow>=10",
+    "torch>=2.1",
+    "sentence-transformers>=2.4",
+    "rdkit>=2023.9",
+]
+
+[project.optional-dependencies]
+app = ["gradio>=4.0", "matplotlib>=3.7"]
+dev = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://drnamlabs.com"
+
+[project.scripts]
+paint-by-words = "pbw.predict:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

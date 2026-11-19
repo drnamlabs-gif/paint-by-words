@@ -1,0 +1,10 @@
+{
+ "auc": 0.968,
+ "auc_if_max_were_used": 0.957,
+ "threshold": 0.0632,
+ "calibrated_on": "val_comp",
+ "n_achievable": 75,
+ "n_refuse": 25,
+ "answers_answerable": 0.96,
+ "answers_impossible": 0.2
+}

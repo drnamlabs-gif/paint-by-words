@@ -1,0 +1,778 @@
+pool,split,concept,text,n_pos,base_rate,auc,top1_hit,max_p,tag
+seen_comp,train,fewer_cells,kill most of the cells,347,0.0368247904064523,0.9765003943643369,True,0.9056484699249268,numerical_window_rich_v3_s0
+seen_comp,train,fewer_cells,reduce the number of cells in the well,347,0.0368247904064523,0.9768598311028358,True,0.8742470145225525,numerical_window_rich_v3_s0
+seen_comp,train,fewer_cells,make the cell population shrink,347,0.0368247904064523,0.9763625891130041,True,0.8203533291816711,numerical_window_rich_v3_s0
+seen_comp,para_test,fewer_cells,leave far fewer cells alive,347,0.0368247904064523,0.9749696129895102,True,0.9631891250610352,numerical_window_rich_v3_s0
+seen_comp,para_test,fewer_cells,thin out the culture by killing cells,347,0.0368247904064523,0.9762168457711569,True,0.8798273801803589,numerical_window_rich_v3_s0
+seen_comp,train,elong_up,make the cells elongated,128,0.013583784357423325,0.9489460059171597,False,0.3912694752216339,numerical_window_rich_v3_s0
+seen_comp,train,elong_up,stretch the cells into long shapes,128,0.013583784357423325,0.9497730634749866,False,0.3914772868156433,numerical_window_rich_v3_s0
+seen_comp,train,elong_up,make the cells more spindle-like,128,0.013583784357423325,0.9563121974179667,True,0.4378291666507721,numerical_window_rich_v3_s0
+seen_comp,para_test,elong_up,turn the cells long and thin,128,0.013583784357423325,0.9466926102743412,False,0.5955545902252197,numerical_window_rich_v3_s0
+seen_comp,para_test,elong_up,give the cells an elongated outline,128,0.013583784357423325,0.9558263851533081,False,0.4570058286190033,numerical_window_rich_v3_s0
+seen_comp,train,nuc_up,make the nuclei bigger,75,0.00795924864692773,0.746468406789331,False,0.3223031759262085,numerical_window_rich_v3_s0
+seen_comp,train,nuc_up,enlarge the nuclei,75,0.00795924864692773,0.7618199971473401,False,0.30308640003204346,numerical_window_rich_v3_s0
+seen_comp,train,nuc_up,swell the cell nuclei,75,0.00795924864692773,0.8043289117101697,False,0.3879300653934479,numerical_window_rich_v3_s0
+seen_comp,para_test,nuc_up,increase nuclear size,75,0.00795924864692773,0.6915532734274711,False,0.387987345457077,numerical_window_rich_v3_s0
+seen_comp,para_test,nuc_up,grow larger nuclei,75,0.00795924864692773,0.7438025959206961,False,0.3609704077243805,numerical_window_rich_v3_s0
+seen_comp,train,nuc_dn,make the nuclei smaller,53,0.0056245357104955955,0.9845834759670566,True,0.34726953506469727,numerical_window_rich_v3_s0
+seen_comp,train,nuc_dn,shrink the nuclei,53,0.0056245357104955955,0.9745695817643625,True,0.28370043635368347,numerical_window_rich_v3_s0
+seen_comp,train,nuc_dn,reduce nuclear size,53,0.0056245357104955955,0.9823382533577656,True,0.2937523126602173,numerical_window_rich_v3_s0
+seen_comp,para_test,nuc_dn,make the nuclei compact and small,53,0.0056245357104955955,0.9854896196210305,True,0.392903208732605,numerical_window_rich_v3_s0
+seen_comp,para_test,nuc_dn,decrease the size of the nucleus,53,0.0056245357104955955,0.9842391413785466,True,0.3556067943572998,numerical_window_rich_v3_s0
+seen_comp,train,dna_up,make the DNA stain brighter,60,0.006367398917542184,0.884968314998754,False,0.2310599684715271,numerical_window_rich_v3_s0
+seen_comp,train,dna_up,increase the DNA staining intensity,60,0.006367398917542184,0.898904375378262,False,0.2738175392150879,numerical_window_rich_v3_s0
+seen_comp,train,dna_up,make the nuclei stain more strongly for DNA,60,0.006367398917542184,0.9184387126633201,True,0.2567283809185028,numerical_window_rich_v3_s0
+seen_comp,para_test,dna_up,condense the DNA so nuclei glow brighter,60,0.006367398917542184,0.9220522268503684,True,0.1925135999917984,numerical_window_rich_v3_s0
+seen_comp,para_test,dna_up,raise the Hoechst signal in the nuclei,60,0.006367398917542184,0.9300126383993734,True,0.2825390696525574,numerical_window_rich_v3_s0
+seen_comp,train,dna_dn,make the DNA stain dimmer,20,0.0021224663058473947,0.8459241731362331,False,0.2165103256702423,numerical_window_rich_v3_s0
+seen_comp,train,dna_dn,decrease DNA staining,20,0.0021224663058473947,0.9175927895352547,False,0.3038245141506195,numerical_window_rich_v3_s0
+seen_comp,train,dna_dn,make the nuclei stain faintly for DNA,20,0.0021224663058473947,0.8641311283632883,False,0.2705806493759155,numerical_window_rich_v3_s0
+seen_comp,para_test,dna_dn,weaken the Hoechst signal,20,0.0021224663058473947,0.9257338083590344,False,0.37208643555641174,numerical_window_rich_v3_s0
+seen_comp,para_test,dna_dn,lower the DNA intensity in nuclei,20,0.0021224663058473947,0.9165346166117196,False,0.3007259964942932,numerical_window_rich_v3_s0
+seen_comp,train,mito_up,make the mitochondria brighter,57,0.0060490289716650745,0.6606323356972401,False,0.20195922255516052,numerical_window_rich_v3_s0
+seen_comp,train,mito_up,increase the mitochondrial signal,57,0.0060490289716650745,0.6717719185857018,False,0.25308796763420105,numerical_window_rich_v3_s0
+seen_comp,train,mito_up,boost MitoTracker staining,57,0.0060490289716650745,0.695109410297043,False,0.29361072182655334,numerical_window_rich_v3_s0
+seen_comp,para_test,mito_up,make the mitochondria glow more,57,0.0060490289716650745,0.6811282691032514,False,0.18250395357608795,numerical_window_rich_v3_s0
+seen_comp,para_test,mito_up,raise mitochondrial staining intensity,57,0.0060490289716650745,0.664065807268545,False,0.31717461347579956,numerical_window_rich_v3_s0
+seen_comp,train,mito_dn,make the mitochondria dimmer,27,0.0028653295128939827,0.9076281475174621,False,0.22835847735404968,numerical_window_rich_v3_s0
+seen_comp,train,mito_dn,reduce the mitochondrial signal,27,0.0028653295128939827,0.9552055248096116,False,0.30259183049201965,numerical_window_rich_v3_s0
+seen_comp,train,mito_dn,weaken MitoTracker staining,27,0.0028653295128939827,0.9193155479873232,False,0.27716872096061707,numerical_window_rich_v3_s0
+seen_comp,para_test,mito_dn,make the mitochondria fade,27,0.0028653295128939827,0.952261009412989,False,0.266615092754364,numerical_window_rich_v3_s0
+seen_comp,para_test,mito_dn,lower mitochondrial staining intensity,27,0.0028653295128939827,0.9543225643693928,False,0.32014942169189453,numerical_window_rich_v3_s0
+seen_comp,train,actin_up,make the actin brighter,27,0.0028653295128939827,0.8142215757690429,False,0.3008311986923218,numerical_window_rich_v3_s0
+seen_comp,train,actin_up,increase actin staining,27,0.0028653295128939827,0.8655870110212383,False,0.31033778190612793,numerical_window_rich_v3_s0
+seen_comp,train,actin_up,strengthen the phalloidin signal,27,0.0028653295128939827,0.8344468883528057,False,0.2517148554325104,numerical_window_rich_v3_s0
+seen_comp,para_test,actin_up,make the actin cytoskeleton more intense,27,0.0028653295128939827,0.8352983144915881,False,0.4269932210445404,numerical_window_rich_v3_s0
+seen_comp,para_test,actin_up,raise the amount of stained actin,27,0.0028653295128939827,0.8756779874808823,False,0.2911141812801361,numerical_window_rich_v3_s0
+seen_comp,train,actin_dn,make the actin fainter,80,0.008489865223389579,0.9778831745691963,True,0.37085288763046265,numerical_window_rich_v3_s0
+seen_comp,train,actin_dn,reduce actin staining,80,0.008489865223389579,0.9788531520924757,True,0.3185129165649414,numerical_window_rich_v3_s0
+seen_comp,train,actin_dn,weaken the phalloidin signal,80,0.008489865223389579,0.9750602055014449,True,0.3380926251411438,numerical_window_rich_v3_s0
+seen_comp,para_test,actin_dn,make the actin cytoskeleton dimmer,80,0.008489865223389579,0.9735751364658033,False,0.2649300694465637,numerical_window_rich_v3_s0
+seen_comp,para_test,actin_dn,lower the actin signal in the cells,80,0.008489865223389579,0.9587966927111206,False,0.6143988370895386,numerical_window_rich_v3_s0
+seen_comp,rare_test,aedge_up,push the actin out to the cell edge,7,0.0007428632070465882,0.7105079499939313,False,0.502801775932312,numerical_window_rich_v3_s0
+seen_comp,rare_test,aedge_up,concentrate actin at the cell periphery,7,0.0007428632070465882,0.7222963951935915,False,0.5506173372268677,numerical_window_rich_v3_s0
+seen_comp,rare_test,aedge_up,move the actin to the rim of the cell,7,0.0007428632070465882,0.6976271392159242,False,0.4804694950580597,numerical_window_rich_v3_s0
+seen_comp,rare_test,aedge_up,redistribute actin toward the cell border,7,0.0007428632070465882,0.704621313266173,False,0.5361440777778625,numerical_window_rich_v3_s0
+seen_comp,rare_test,aedge_up,make actin accumulate at the cell margin,7,0.0007428632070465882,0.711251365456973,False,0.5881861448287964,numerical_window_rich_v3_s0
+seen_comp,train,aedge_dn,pull the actin away from the cell edge,180,0.019102196752626553,0.9346244004471853,True,0.5479785799980164,numerical_window_rich_v3_s0
+seen_comp,train,aedge_dn,move actin toward the cell centre,180,0.019102196752626553,0.9345907413417962,True,0.5420382022857666,numerical_window_rich_v3_s0
+seen_comp,train,aedge_dn,draw the actin inward from the periphery,180,0.019102196752626553,0.9355512279562912,True,0.5172877311706543,numerical_window_rich_v3_s0
+seen_comp,para_test,aedge_dn,deplete actin at the cell border,180,0.019102196752626553,0.925964393474942,False,0.6088879108428955,numerical_window_rich_v3_s0
+seen_comp,para_test,aedge_dn,shift actin from the rim into the interior,180,0.019102196752626553,0.935977376272735,False,0.5837658643722534,numerical_window_rich_v3_s0
+seen_comp,train,gpatch_up,make the Golgi and membrane staining patchy,130,0.013796030988008065,0.9126600667168837,False,0.4729060232639313,numerical_window_rich_v3_s0
+seen_comp,train,gpatch_up,make the WGA signal uneven and blotchy,130,0.013796030988008065,0.8979657972502049,False,0.5106414556503296,numerical_window_rich_v3_s0
+seen_comp,train,gpatch_up,fragment the Golgi into patches,130,0.013796030988008065,0.9148858942628447,False,0.5903591513633728,numerical_window_rich_v3_s0
+seen_comp,para_test,gpatch_up,make the membrane stain look spotty,130,0.013796030988008065,0.8991172015329982,False,0.49365726113319397,numerical_window_rich_v3_s0
+seen_comp,para_test,gpatch_up,scatter the Golgi signal into clumps,130,0.013796030988008065,0.9029687357729971,True,0.3390827476978302,numerical_window_rich_v3_s0
+seen_comp,train,gpatch_dn,make the Golgi and membrane staining smoother,14,0.0014857264140931763,0.9353354690797564,False,0.25927263498306274,numerical_window_rich_v3_s0
+seen_comp,train,gpatch_dn,make the WGA signal more even,14,0.0014857264140931763,0.9344624447717231,False,0.2592979073524475,numerical_window_rich_v3_s0
+seen_comp,train,gpatch_dn,reduce the patchiness of the Golgi stain,14,0.0014857264140931763,0.9625282783960646,False,0.3107742667198181,numerical_window_rich_v3_s0
+seen_comp,para_test,gpatch_dn,make the membrane stain look uniform,14,0.0014857264140931763,0.9241228003583195,False,0.4522289037704468,numerical_window_rich_v3_s0
+seen_comp,para_test,gpatch_dn,smooth out the Golgi signal,14,0.0014857264140931763,0.9165920167620667,False,0.28183549642562866,numerical_window_rich_v3_s0
+seen_comp,refuse,gpatch_dn+gmean_flat,make the Golgi staining smoother while keeping its brightness normal,0,0.0,,False,0.2988104522228241,numerical_window_rich_v3_s0
+seen_comp,refuse,gpatch_dn+gmean_flat,even out the Golgi signal without changing how bright it is,0,0.0,,False,0.5259230136871338,numerical_window_rich_v3_s0
+seen_comp,refuse,nuc_up+mito_up,give me bigger nuclei and brighter mitochondria,0,0.0,,False,0.1882588267326355,numerical_window_rich_v3_s0
+seen_comp,refuse,nuc_up+mito_dn,give me bigger nuclei and dimmer mitochondria,0,0.0,,False,0.21987415850162506,numerical_window_rich_v3_s0
+seen_comp,refuse,nuc_up+actin_up,give me bigger nuclei and brighter actin,0,0.0,,False,0.21136875450611115,numerical_window_rich_v3_s0
+seen_comp,refuse,nuc_up+gpatch_up,give me bigger nuclei and patchy Golgi staining,0,0.0,,False,0.2839111089706421,numerical_window_rich_v3_s0
+seen_comp,refuse,nuc_up+gpatch_dn,give me bigger nuclei and smoother Golgi staining,0,0.0,,False,0.22056448459625244,numerical_window_rich_v3_s0
+seen_comp,refuse,dna_up+mito_dn,give me brighter DNA staining and dimmer mitochondria,0,0.0,,False,0.21317936480045319,numerical_window_rich_v3_s0
+seen_comp,refuse,dna_up+gpatch_dn,give me brighter DNA staining and smoother Golgi staining,0,0.0,,False,0.2025608867406845,numerical_window_rich_v3_s0
+seen_comp,refuse,dna_dn+mito_up,give me dimmer DNA staining and brighter mitochondria,0,0.0,,False,0.2166568636894226,numerical_window_rich_v3_s0
+seen_comp,refuse,dna_dn+actin_up,give me dimmer DNA staining and brighter actin,0,0.0,,False,0.20952126383781433,numerical_window_rich_v3_s0
+seen_comp,refuse,dna_dn+aedge_dn,give me dimmer DNA staining and actin pulled away from the cell edge,0,0.0,,False,0.3123962879180908,numerical_window_rich_v3_s0
+seen_comp,refuse,dna_dn+gpatch_up,give me dimmer DNA staining and patchy Golgi staining,0,0.0,,False,0.2939719557762146,numerical_window_rich_v3_s0
+seen_comp,refuse,dna_dn+gpatch_dn,give me dimmer DNA staining and smoother Golgi staining,0,0.0,,False,0.21213959157466888,numerical_window_rich_v3_s0
+seen_comp,refuse,mito_up+gpatch_dn,give me brighter mitochondria and smoother Golgi staining,0,0.0,,False,0.20053938031196594,numerical_window_rich_v3_s0
+seen_comp,refuse,mito_dn+actin_up,give me dimmer mitochondria and brighter actin,0,0.0,,False,0.20210732519626617,numerical_window_rich_v3_s0
+seen_comp,refuse,actin_up+gpatch_dn,give me brighter actin and smoother Golgi staining,0,0.0,,False,0.21324960887432098,numerical_window_rich_v3_s0
+seen_comp,comp_test,mito_up+fewer_cells,give me brighter mitochondria and fewer cells,117,0.012417745701549564,0.9838980053918259,False,0.2273419350385666,numerical_window_rich_v3_s0
+seen_comp,comp_test,dna_up+actin_dn,give me brighter DNA staining and fainter actin,10,0.0010612331529236973,0.9929777966641878,False,0.22154122591018677,numerical_window_rich_v3_s0
+seen_comp,comp_test,dna_up+mito_up,give me brighter DNA staining and brighter mitochondria,10,0.0010612331529236973,0.9786146818230107,False,0.1974310427904129,numerical_window_rich_v3_s0
+seen_comp,comp_test,dna_up+!mito_up,produce brighter DNA staining while keeping the mitochondria normal,45,0.004775549188156638,0.940083173384517,False,0.2391282021999359,numerical_window_rich_v3_s0
+seen_comp,comp_test,nuc_up+fewer_cells,give me bigger nuclei and fewer cells,77,0.008172362555720654,0.973549992009061,False,0.43312570452690125,numerical_window_rich_v3_s0
+seen_comp,comp_test,aedge_dn+!gpatch_up,produce actin pulled away from the cell edge without making the Golgi patchy,72,0.007640878701050621,0.915750246557112,False,0.5248039960861206,numerical_window_rich_v3_s0
+seen_comp,comp_test,actin_up+!dna_up,produce brighter actin without making the DNA brighter,10,0.0010612331529236973,0.862302135344736,False,0.2851487696170807,numerical_window_rich_v3_s0
+seen_comp,comp_test,mito_up+gpatch_up,give me brighter mitochondria and patchy Golgi staining,10,0.0010612331529236973,0.9603792627217678,False,0.21150851249694824,numerical_window_rich_v3_s0
+seen_comp,comp_test,aedge_dn+gpatch_up,give me actin pulled away from the cell edge and patchy Golgi staining,57,0.0060490289716650745,0.9569561047611554,False,0.45538270473480225,numerical_window_rich_v3_s0
+seen_comp,comp_test,aedge_dn+!elong_up,produce actin pulled away from the cell edge without stretching the cells,138,0.014645017510347023,0.9298361858381525,False,0.4551483392715454,numerical_window_rich_v3_s0
+seen_comp,comp_test,fewer_cells+!elong_up,produce fewer cells without stretching the cells,307,0.032583315644236895,0.9680142086012783,True,0.6052573919296265,numerical_window_rich_v3_s0
+seen_comp,comp_test,nuc_dn+gpatch_up,give me smaller nuclei and patchy Golgi staining,9,0.0009551098376313276,0.9888700044850459,False,0.3577077090740204,numerical_window_rich_v3_s0
+seen_comp,comp_test,mito_up+!dna_up,produce brighter mitochondria without making the DNA brighter,36,0.0038204393505253103,0.6718171111347845,False,0.27527764439582825,numerical_window_rich_v3_s0
+seen_comp,comp_test,dna_up+fewer_cells,give me brighter DNA staining and fewer cells,147,0.015601783060921248,0.988628637438803,False,0.32092347741127014,numerical_window_rich_v3_s0
+seen_comp,comp_test,nuc_dn+!dna_up,produce smaller nuclei without making the DNA brighter,12,0.0012734797835084368,0.9710932242411363,False,0.31880995631217957,numerical_window_rich_v3_s0
+seen_comp,comp_test,nuc_dn+aedge_dn,give me smaller nuclei and actin pulled away from the cell edge,18,0.0019102196752626551,0.9861421229842282,True,0.48367762565612793,numerical_window_rich_v3_s0
+seen_comp,comp_test,nuc_dn+!elong_up,produce smaller nuclei without stretching the cells,29,0.0030775761434787222,0.973682761557267,True,0.3420359194278717,numerical_window_rich_v3_s0
+seen_comp,comp_test,gpatch_dn+!nuc_up,produce smoother Golgi staining without enlarging the nuclei,12,0.0012734797835084368,0.9586211171324337,False,0.31182217597961426,numerical_window_rich_v3_s0
+seen_comp,comp_test,nuc_up+!mito_up,produce bigger nuclei while keeping the mitochondria normal,69,0.0073225087551735115,0.7776538286341114,False,0.28949880599975586,numerical_window_rich_v3_s0
+seen_comp,comp_test,elong_up+!gpatch_up,produce elongated cells without making the Golgi patchy,114,0.012098057943330149,0.9261726531389167,False,0.3051016330718994,numerical_window_rich_v3_s0
+seen_comp,comp_test,elong_up+fewer_cells,give me elongated cells and fewer cells,16,0.0016981532583315645,0.9768498830533703,False,0.4527219235897064,numerical_window_rich_v3_s0
+seen_comp,comp_test,mito_dn+!gpatch_up,produce dimmer mitochondria without making the Golgi patchy,25,0.002653082882309243,0.8834901042775058,False,0.1865568459033966,numerical_window_rich_v3_s0
+seen_comp,comp_test,actin_dn+aedge_dn,give me fainter actin and actin pulled away from the cell edge,19,0.002016342990555025,0.9858402919250486,True,0.4525291919708252,numerical_window_rich_v3_s0
+seen_comp,comp_test,fewer_cells+!gpatch_up,produce fewer cells without making the Golgi patchy,190,0.02016556994268733,0.9516076803794581,False,0.6383076906204224,numerical_window_rich_v3_s0
+seen_comp,comp_test,actin_up+gpatch_up,give me brighter actin and patchy Golgi staining,11,0.001167356468216067,0.9659911911293126,False,0.2532433271408081,numerical_window_rich_v3_s0
+seen_comp,comp_test,mito_dn+!nuc_up,produce dimmer mitochondria without enlarging the nuclei,25,0.002653082882309243,0.9497935731006597,False,0.26346415281295776,numerical_window_rich_v3_s0
+seen_comp,comp_test,gpatch_up+!nuc_up,produce patchy Golgi staining without enlarging the nuclei,118,0.012522551204499629,0.9090884252133443,False,0.4106699824333191,numerical_window_rich_v3_s0
+seen_comp,comp_test,actin_dn+!gpatch_up,produce fainter actin without making the Golgi patchy,74,0.00785312533163536,0.9708423794422296,False,0.2531614303588867,numerical_window_rich_v3_s0
+seen_comp,train,fewer_cells+!nuc_up,produce fewer cells without enlarging the nuclei,254,0.026958182976013587,0.9687922987866047,True,0.7435674667358398,numerical_window_rich_v3_s0
+seen_comp,train,fewer_cells+!nuc_up,"I need fewer cells, without enlarging the nuclei",254,0.026958182976013587,0.9687781276195189,True,0.7658399343490601,numerical_window_rich_v3_s0
+seen_comp,train,dna_up+!nuc_up,produce brighter DNA staining without enlarging the nuclei,56,0.005942905656372705,0.8934261998810413,False,0.2340129166841507,numerical_window_rich_v3_s0
+seen_comp,train,dna_up+!nuc_up,"I need brighter DNA staining, without enlarging the nuclei",56,0.005942905656372705,0.8954660357791029,True,0.21020688116550446,numerical_window_rich_v3_s0
+seen_comp,train,mito_up+!gpatch_up,produce brighter mitochondria without making the Golgi patchy,30,0.003183699458771092,0.7078675609496434,False,0.1916256546974182,numerical_window_rich_v3_s0
+seen_comp,train,mito_up+!gpatch_up,"I need brighter mitochondria, without making the Golgi patchy",30,0.003183699458771092,0.7073565421058234,False,0.1729312390089035,numerical_window_rich_v3_s0
+seen_comp,train,nuc_dn+fewer_cells,give me smaller nuclei and fewer cells,86,0.00912757376353216,0.9905984087602878,True,0.7291425466537476,numerical_window_rich_v3_s0
+seen_comp,train,nuc_dn+fewer_cells,I want smaller nuclei together with fewer cells,86,0.00912757376353216,0.9909359369083917,False,0.6192684173583984,numerical_window_rich_v3_s0
+seen_comp,train,dna_up+gpatch_up,give me brighter DNA staining and patchy Golgi staining,16,0.0016979730446779156,0.9844198469225045,False,0.2309602051973343,numerical_window_rich_v3_s0
+seen_comp,train,dna_up+gpatch_up,I want brighter DNA staining together with patchy Golgi staining,16,0.0016979730446779156,0.9851041777399809,False,0.22608955204486847,numerical_window_rich_v3_s0
+seen_comp,train,gpatch_dn+fewer_cells,give me smoother Golgi staining and fewer cells,19,0.002016556994268733,0.9907980095938027,True,0.35641855001449585,numerical_window_rich_v3_s0
+seen_comp,train,gpatch_dn+fewer_cells,I want smoother Golgi staining together with fewer cells,19,0.002016556994268733,0.9903054456304539,True,0.3424631953239441,numerical_window_rich_v3_s0
+seen_comp,train,elong_up+actin_dn,give me elongated cells and fainter actin,27,0.0028653295128939827,0.9832907620263942,False,0.3081991374492645,numerical_window_rich_v3_s0
+seen_comp,train,elong_up+actin_dn,I want elongated cells together with fainter actin,27,0.0028653295128939827,0.9833144127524716,False,0.30029216408729553,numerical_window_rich_v3_s0
+seen_comp,train,nuc_up+!dna_up,produce bigger nuclei without making the DNA brighter,64,0.0067918921787116626,0.7734708903194785,False,0.2871549725532532,numerical_window_rich_v3_s0
+seen_comp,train,nuc_up+!dna_up,"I need bigger nuclei, without making the DNA brighter",64,0.0067918921787116626,0.7660749345549738,False,0.3052905797958374,numerical_window_rich_v3_s0
+seen_comp,train,aedge_dn+!mito_up,produce actin pulled away from the cell edge while keeping the mitochondria normal,150,0.01591849729385546,0.9359304791689134,True,0.49088454246520996,numerical_window_rich_v3_s0
+seen_comp,train,aedge_dn+!mito_up,"I need actin pulled away from the cell edge, while keeping the mitochondria normal",150,0.01591849729385546,0.9356091160717496,True,0.49001577496528625,numerical_window_rich_v3_s0
+seen_comp,train,dna_dn+fewer_cells,give me dimmer DNA staining and fewer cells,15,0.0015920186796858416,0.9884731228517771,True,0.4231736958026886,numerical_window_rich_v3_s0
+seen_comp,train,dna_dn+fewer_cells,I want dimmer DNA staining together with fewer cells,15,0.0015920186796858416,0.9881400375606818,True,0.28014010190963745,numerical_window_rich_v3_s0
+seen_comp,train,actin_dn+!dna_up,produce fainter actin without making the DNA brighter,64,0.0067918921787116626,0.9764915455711081,True,0.3814364969730377,numerical_window_rich_v3_s0
+seen_comp,train,actin_dn+!dna_up,"I need fainter actin, without making the DNA brighter",64,0.0067918921787116626,0.9760558019019125,False,0.3912928104400635,numerical_window_rich_v3_s0
+seen_comp,train,aedge_dn+fewer_cells,give me actin pulled away from the cell edge and fewer cells,207,0.021969857779664613,0.991359393553359,True,0.8974140286445618,numerical_window_rich_v3_s0
+seen_comp,train,aedge_dn+fewer_cells,I want actin pulled away from the cell edge together with fewer cells,207,0.021969857779664613,0.991378266374138,True,0.8872002363204956,numerical_window_rich_v3_s0
+seen_comp,train,gpatch_dn+!dna_up,produce smoother Golgi staining without making the DNA brighter,13,0.0013796030988008066,0.9374887599117143,False,0.275814414024353,numerical_window_rich_v3_s0
+seen_comp,train,gpatch_dn+!dna_up,"I need smoother Golgi staining, without making the DNA brighter",13,0.0013796030988008066,0.9152865200686667,False,0.25586381554603577,numerical_window_rich_v3_s0
+seen_comp,train,mito_up+aedge_dn,give me brighter mitochondria and actin pulled away from the cell edge,10,0.0010612331529236973,0.97882184213322,False,0.2471293807029724,numerical_window_rich_v3_s0
+seen_comp,train,mito_up+aedge_dn,I want brighter mitochondria together with actin pulled away from the cell edge,10,0.0010612331529236973,0.9796292361627537,False,0.22246049344539642,numerical_window_rich_v3_s0
+seen_comp,train,dna_dn+!elong_up,produce dimmer DNA staining without stretching the cells,12,0.0012734797835084368,0.8807468210958806,False,0.24349524080753326,numerical_window_rich_v3_s0
+seen_comp,train,dna_dn+!elong_up,"I need dimmer DNA staining, without stretching the cells",12,0.0012734797835084368,0.8899293380087132,False,0.2580285668373108,numerical_window_rich_v3_s0
+seen_comp,train,elong_up+aedge_dn,give me elongated cells and actin pulled away from the cell edge,14,0.0014857264140931763,0.9765877655132624,False,0.3607451319694519,numerical_window_rich_v3_s0
+seen_comp,train,elong_up+aedge_dn,I want elongated cells together with actin pulled away from the cell edge,14,0.0014857264140931763,0.9771115800980824,False,0.32903632521629333,numerical_window_rich_v3_s0
+seen_comp,train,elong_up+dna_up,give me elongated cells and brighter DNA staining,11,0.001167356468216067,0.9916547540856934,False,0.2505936622619629,numerical_window_rich_v3_s0
+seen_comp,train,elong_up+dna_up,I want elongated cells together with brighter DNA staining,11,0.001167356468216067,0.9911041996677354,False,0.2520124316215515,numerical_window_rich_v3_s0
+seen_comp,train,actin_dn+!elong_up,produce fainter actin without stretching the cells,39,0.004138809296402419,0.9684432858985288,True,0.36888086795806885,numerical_window_rich_v3_s0
+seen_comp,train,actin_dn+!elong_up,"I need fainter actin, without stretching the cells",39,0.004138809296402419,0.96840776444357,True,0.398181676864624,numerical_window_rich_v3_s0
+seen_comp,train,actin_up+fewer_cells,give me brighter actin and fewer cells,48,0.005094459774994693,0.9864341085271318,False,0.47829344868659973,numerical_window_rich_v3_s0
+seen_comp,train,actin_up+fewer_cells,I want brighter actin together with fewer cells,48,0.005094459774994693,0.9865874582177654,False,0.5951894521713257,numerical_window_rich_v3_s0
+seen_comp,train,mito_dn+fewer_cells,give me dimmer mitochondria and fewer cells,19,0.002016556994268733,0.9872521087894681,False,0.4347499907016754,numerical_window_rich_v3_s0
+seen_comp,train,mito_dn+fewer_cells,I want dimmer mitochondria together with fewer cells,19,0.002016556994268733,0.9868155180037725,True,0.2918015718460083,numerical_window_rich_v3_s0
+seen_comp,train,dna_dn+!nuc_up,produce dimmer DNA staining without enlarging the nuclei,12,0.0012734797835084368,0.8761112882088335,False,0.26711225509643555,numerical_window_rich_v3_s0
+seen_comp,train,dna_dn+!nuc_up,"I need dimmer DNA staining, without enlarging the nuclei",12,0.0012734797835084368,0.8836822158467041,False,0.269883930683136,numerical_window_rich_v3_s0
+seen_comp,train,elong_up+nuc_dn,give me elongated cells and smaller nuclei,13,0.0013796030988008066,0.9857516553584565,False,0.2717146873474121,numerical_window_rich_v3_s0
+seen_comp,train,elong_up+nuc_dn,I want elongated cells together with smaller nuclei,13,0.0013796030988008066,0.9867816561759175,False,0.28319939970970154,numerical_window_rich_v3_s0
+seen_comp,train,nuc_dn+dna_up,give me smaller nuclei and brighter DNA staining,16,0.0016979730446779156,0.992040501754013,False,0.2253677248954773,numerical_window_rich_v3_s0
+seen_comp,train,nuc_dn+dna_up,I want smaller nuclei together with brighter DNA staining,16,0.0016979730446779156,0.9919740618688211,False,0.22367587685585022,numerical_window_rich_v3_s0
+seen_comp,train,dna_up+!gpatch_up,produce brighter DNA staining without making the Golgi patchy,29,0.0030775761434787222,0.9272995235403375,False,0.2375767081975937,numerical_window_rich_v3_s0
+seen_comp,train,dna_up+!gpatch_up,"I need brighter DNA staining, without making the Golgi patchy",29,0.0030775761434787222,0.9251117734724291,False,0.1826164275407791,numerical_window_rich_v3_s0
+seen_comp,train,actin_up+aedge_dn,give me brighter actin and actin pulled away from the cell edge,12,0.0012734797835084368,0.9774111854921546,False,0.30695465207099915,numerical_window_rich_v3_s0
+seen_comp,train,actin_up+aedge_dn,I want brighter actin together with actin pulled away from the cell edge,12,0.0012734797835084368,0.9738161017249318,False,0.22175362706184387,numerical_window_rich_v3_s0
+seen_comp,train,actin_dn+fewer_cells,give me fainter actin and fewer cells,87,0.009233708342177882,0.9898546441829968,False,0.7673941254615784,numerical_window_rich_v3_s0
+seen_comp,train,actin_dn+fewer_cells,I want fainter actin together with fewer cells,87,0.009233708342177882,0.9898817329417776,True,0.7497599124908447,numerical_window_rich_v3_s0
+seen_comp,train,mito_up+!nuc_up,produce brighter mitochondria without enlarging the nuclei,48,0.005093919134033747,0.7217500000000001,False,0.2079906016588211,numerical_window_rich_v3_s0
+seen_comp,train,mito_up+!nuc_up,"I need brighter mitochondria, without enlarging the nuclei",48,0.005093919134033747,0.7216788888888888,False,0.18423248827457428,numerical_window_rich_v3_s0
+seen_comp,train,nuc_up+!gpatch_up,produce bigger nuclei without making the Golgi patchy,67,0.0071102621245887725,0.7878909216210525,False,0.2568438649177551,numerical_window_rich_v3_s0
+seen_comp,train,nuc_up+!gpatch_up,"I need bigger nuclei, without making the Golgi patchy",67,0.0071102621245887725,0.7787851039798868,False,0.2627313733100891,numerical_window_rich_v3_s0
+seen_comp,train,gpatch_up+!dna_up,produce patchy Golgi staining without making the DNA brighter,84,0.008914358484559057,0.8967922536827131,True,0.41069450974464417,numerical_window_rich_v3_s0
+seen_comp,train,gpatch_up+!dna_up,"I need patchy Golgi staining, without making the DNA brighter",84,0.008914358484559057,0.8943167158714863,False,0.3944827616214752,numerical_window_rich_v3_s0
+seen_comp,train,dna_dn+!gpatch_up,produce dimmer DNA staining without making the Golgi patchy,15,0.001591849729385546,0.8152175453514741,False,0.2127475142478943,numerical_window_rich_v3_s0
+seen_comp,train,dna_dn+!gpatch_up,"I need dimmer DNA staining, without making the Golgi patchy",15,0.001591849729385546,0.8405576814058959,False,0.2170131504535675,numerical_window_rich_v3_s0
+seen_comp,train,aedge_dn+!nuc_up,produce actin pulled away from the cell edge without enlarging the nuclei,161,0.017085853762071525,0.9343390008731328,True,0.513093113899231,numerical_window_rich_v3_s0
+seen_comp,train,aedge_dn+!nuc_up,"I need actin pulled away from the cell edge, without enlarging the nuclei",161,0.017085853762071525,0.9356051105767103,True,0.4755033850669861,numerical_window_rich_v3_s0
+seen_comp,train,fewer_cells+!dna_up,produce fewer cells without making the DNA brighter,180,0.0191042241562301,0.9582774291278944,False,0.620853841304779,numerical_window_rich_v3_s0
+seen_comp,train,fewer_cells+!dna_up,"I need fewer cells, without making the DNA brighter",180,0.0191042241562301,0.9590835317030945,True,0.7082890272140503,numerical_window_rich_v3_s0
+seen_comp,train,actin_up+!elong_up,produce brighter actin without stretching the cells,23,0.0024408362517245037,0.8163482886216467,False,0.2246135175228119,numerical_window_rich_v3_s0
+seen_comp,train,actin_up+!elong_up,"I need brighter actin, without stretching the cells",23,0.0024408362517245037,0.8153399629972248,False,0.22233566641807556,numerical_window_rich_v3_s0
+seen_comp,train,actin_dn+!mito_up,produce fainter actin while keeping the mitochondria normal,78,0.008277618592804839,0.9716343581512121,False,0.33162641525268555,numerical_window_rich_v3_s0
+seen_comp,train,actin_dn+!mito_up,"I need fainter actin, while keeping the mitochondria normal",78,0.008277618592804839,0.969750723683308,False,0.3546925485134125,numerical_window_rich_v3_s0
+seen_comp,train,nuc_dn+!mito_up,produce smaller nuclei while keeping the mitochondria normal,40,0.004244932611694789,0.9819061067888735,True,0.32438087463378906,numerical_window_rich_v3_s0
+seen_comp,train,nuc_dn+!mito_up,"I need smaller nuclei, while keeping the mitochondria normal",40,0.004244932611694789,0.9822977725674091,False,0.34991133213043213,numerical_window_rich_v3_s0
+seen_comp,train,actin_up+!mito_up,produce brighter actin while keeping the mitochondria normal,16,0.0016979730446779156,0.865715026044435,False,0.22101181745529175,numerical_window_rich_v3_s0
+seen_comp,train,actin_up+!mito_up,"I need brighter actin, while keeping the mitochondria normal",16,0.0016979730446779156,0.8569383172105879,False,0.19987653195858002,numerical_window_rich_v3_s0
+seen_comp,train,dna_up+actin_up,give me brighter DNA staining and brighter actin,8,0.0008489865223389578,0.9708045671800318,False,0.20401732623577118,numerical_window_rich_v3_s0
+seen_comp,train,dna_up+actin_up,I want brighter DNA staining together with brighter actin,8,0.0008489865223389578,0.9740308019118428,False,0.19837139546871185,numerical_window_rich_v3_s0
+seen_comp,train,elong_up+!dna_up,produce elongated cells without making the DNA brighter,104,0.011036824790406453,0.9471427274303119,False,0.37890419363975525,numerical_window_rich_v3_s0
+seen_comp,train,elong_up+!dna_up,"I need elongated cells, without making the DNA brighter",104,0.011036824790406453,0.9397787398779995,False,0.38631367683410645,numerical_window_rich_v3_s0
+seen_comp,train,fewer_cells+!mito_up,produce fewer cells while keeping the mitochondria normal,217,0.023031203566121844,0.9621258732856567,False,0.7066563963890076,numerical_window_rich_v3_s0
+seen_comp,train,fewer_cells+!mito_up,"I need fewer cells, while keeping the mitochondria normal",217,0.023031203566121844,0.9616738048095479,False,0.7011896371841431,numerical_window_rich_v3_s0
+seen_comp,train,dna_up+!elong_up,produce brighter DNA staining without stretching the cells,42,0.004457179242279528,0.854977893513231,False,0.20836760103702545,numerical_window_rich_v3_s0
+seen_comp,train,dna_up+!elong_up,"I need brighter DNA staining, without stretching the cells",42,0.004457179242279528,0.8455997685290938,False,0.1823805570602417,numerical_window_rich_v3_s0
+seen_comp,train,mito_dn+!elong_up,produce dimmer mitochondria without stretching the cells,17,0.0018040963599702854,0.9233718152368325,False,0.2772858440876007,numerical_window_rich_v3_s0
+seen_comp,train,mito_dn+!elong_up,"I need dimmer mitochondria, without stretching the cells",17,0.0018040963599702854,0.9477992770571975,False,0.292881578207016,numerical_window_rich_v3_s0
+seen_comp,train,dna_up+aedge_dn,give me brighter DNA staining and actin pulled away from the cell edge,24,0.0025469595670168737,0.9912003049969854,False,0.2534846365451813,numerical_window_rich_v3_s0
+seen_comp,train,dna_up+aedge_dn,I want brighter DNA staining together with actin pulled away from the cell edge,24,0.0025469595670168737,0.9913111323899706,False,0.23633211851119995,numerical_window_rich_v3_s0
+seen_comp,train,nuc_up+!elong_up,produce bigger nuclei without stretching the cells,66,0.0070041388092964025,0.7734980455403668,False,0.2766847312450409,numerical_window_rich_v3_s0
+seen_comp,train,nuc_up+!elong_up,"I need bigger nuclei, without stretching the cells",66,0.0070041388092964025,0.7708699693310146,False,0.302979439496994,numerical_window_rich_v3_s0
+seen_comp,train,gpatch_up+!mito_up,produce patchy Golgi staining while keeping the mitochondria normal,100,0.010612331529236973,0.9006746755336265,True,0.3029853105545044,numerical_window_rich_v3_s0
+seen_comp,train,gpatch_up+!mito_up,"I need patchy Golgi staining, while keeping the mitochondria normal",100,0.010612331529236973,0.8953952590367907,True,0.3118419945240021,numerical_window_rich_v3_s0
+seen_comp,train,elong_up+!nuc_up,produce elongated cells without enlarging the nuclei,119,0.012628674519791999,0.956848775623749,False,0.4234740436077118,numerical_window_rich_v3_s0
+seen_comp,train,elong_up+!nuc_up,"I need elongated cells, without enlarging the nuclei",119,0.012628674519791999,0.9516183515538631,False,0.41565778851509094,numerical_window_rich_v3_s0
+seen_comp,train,gpatch_up+!elong_up,produce patchy Golgi staining without stretching the cells,107,0.011355194736283561,0.8896557224431488,False,0.3547191619873047,numerical_window_rich_v3_s0
+seen_comp,train,gpatch_up+!elong_up,"I need patchy Golgi staining, without stretching the cells",107,0.011355194736283561,0.8515472325774568,False,0.3278907537460327,numerical_window_rich_v3_s0
+seen_comp,train,dna_dn+!mito_up,produce dimmer DNA staining while keeping the mitochondria normal,20,0.0021224663058473947,0.8547564607040306,False,0.25354012846946716,numerical_window_rich_v3_s0
+seen_comp,train,dna_dn+!mito_up,"I need dimmer DNA staining, while keeping the mitochondria normal",20,0.0021224663058473947,0.8754253961501648,False,0.2631266117095947,numerical_window_rich_v3_s0
+seen_comp,train,nuc_dn+actin_dn,give me smaller nuclei and fainter actin,10,0.0010612331529236973,0.9930946563263572,False,0.2503882944583893,numerical_window_rich_v3_s0
+seen_comp,train,nuc_dn+actin_dn,I want smaller nuclei together with fainter actin,10,0.0010612331529236973,0.9941782641028365,False,0.2800379693508148,numerical_window_rich_v3_s0
+seen_comp,train,actin_dn+!nuc_up,produce fainter actin without enlarging the nuclei,73,0.0077470020163429906,0.984631162552194,False,0.33308544754981995,numerical_window_rich_v3_s0
+seen_comp,train,actin_dn+!nuc_up,"I need fainter actin, without enlarging the nuclei",73,0.0077470020163429906,0.9832085561497326,False,0.3405798375606537,numerical_window_rich_v3_s0
+seen_comp,train,aedge_dn+!dna_up,produce actin pulled away from the cell edge without making the DNA brighter,116,0.012310304573914889,0.9404989940830594,True,0.4539152681827545,numerical_window_rich_v3_s0
+seen_comp,train,aedge_dn+!dna_up,"I need actin pulled away from the cell edge, without making the DNA brighter",116,0.012310304573914889,0.9395810717183581,True,0.3952940106391907,numerical_window_rich_v3_s0
+seen_comp,train,actin_up+!nuc_up,produce brighter actin without enlarging the nuclei,24,0.0025469595670168737,0.8348117707557541,False,0.2173081785440445,numerical_window_rich_v3_s0
+seen_comp,train,actin_up+!nuc_up,"I need brighter actin, without enlarging the nuclei",24,0.0025469595670168737,0.838145458736745,False,0.2318027764558792,numerical_window_rich_v3_s0
+seen_comp,train,mito_up+!elong_up,produce brighter mitochondria without stretching the cells,51,0.005412289079910856,0.7130616437782966,False,0.206720232963562,numerical_window_rich_v3_s0
+seen_comp,train,mito_up+!elong_up,"I need brighter mitochondria, without stretching the cells",51,0.005412289079910856,0.7141119145054521,False,0.18055546283721924,numerical_window_rich_v3_s0
+seen_comp,train,gpatch_up+fewer_cells,give me patchy Golgi staining and fewer cells,139,0.014752706431755466,0.9875776638196068,False,0.7776727080345154,numerical_window_rich_v3_s0
+seen_comp,train,gpatch_up+fewer_cells,I want patchy Golgi staining together with fewer cells,139,0.014752706431755466,0.9876667878236461,False,0.7135958671569824,numerical_window_rich_v3_s0
+seen_comp,train,nuc_dn+!gpatch_up,produce smaller nuclei without making the Golgi patchy,30,0.003183699458771092,0.9809822917775649,False,0.27594321966171265,numerical_window_rich_v3_s0
+seen_comp,train,nuc_dn+!gpatch_up,"I need smaller nuclei, without making the Golgi patchy",30,0.003183699458771092,0.9801447886724156,False,0.28585824370384216,numerical_window_rich_v3_s0
+seen_comp,train,mito_dn+!dna_up,produce dimmer mitochondria without making the DNA brighter,22,0.002334712936432134,0.9592741584550967,False,0.2878309488296509,numerical_window_rich_v3_s0
+seen_comp,train,mito_dn+!dna_up,"I need dimmer mitochondria, without making the DNA brighter",22,0.002334712936432134,0.9536364603378751,False,0.2770597040653229,numerical_window_rich_v3_s0
+seen_comp,train,elong_up+!mito_up,produce elongated cells while keeping the mitochondria normal,125,0.013265414411546217,0.9508767476876747,False,0.3708031475543976,numerical_window_rich_v3_s0
+seen_comp,train,elong_up+!mito_up,"I need elongated cells, while keeping the mitochondria normal",125,0.013265414411546217,0.9504517100451709,False,0.3967527151107788,numerical_window_rich_v3_s0
+seen_comp,train,gpatch_dn+!mito_up,produce smoother Golgi staining while keeping the mitochondria normal,14,0.0014857264140931763,0.929459635910906,False,0.260995477437973,numerical_window_rich_v3_s0
+seen_comp,train,gpatch_dn+!mito_up,"I need smoother Golgi staining, while keeping the mitochondria normal",14,0.0014857264140931763,0.9202587188558067,False,0.25280487537384033,numerical_window_rich_v3_s0
+seen_comp,comp_test,dna_up+mito_up+fewer_cells,"give me brighter DNA staining, brighter mitochondria and fewer cells",104,0.01103799617915517,0.9651563557712947,True,0.1942329853773117,numerical_window_rich_v3_s0
+seen_comp,comp_test,actin_up+gpatch_up+fewer_cells,"give me brighter actin, patchy Golgi staining and fewer cells",47,0.00498832519634897,0.9808590070921986,False,0.3379857838153839,numerical_window_rich_v3_s0
+seen_comp,comp_test,dna_dn+actin_dn+fewer_cells,"give me dimmer DNA staining, fainter actin and fewer cells",10,0.0010613457864572277,0.9960582235444114,True,0.2977946400642395,numerical_window_rich_v3_s0
+seen_comp,comp_test,nuc_dn+gpatch_up+fewer_cells,"give me smaller nuclei, patchy Golgi staining and fewer cells",67,0.007111016769263426,0.9909019839338848,False,0.6370139122009277,numerical_window_rich_v3_s0
+seen_comp,comp_test,dna_dn+aedge_dn+fewer_cells,"give me dimmer DNA staining, actin pulled away from the cell edge and fewer cells",9,0.000955211207811505,0.9935609145744067,True,0.3432714641094208,numerical_window_rich_v3_s0
+seen_comp,comp_test,nuc_up+actin_dn+fewer_cells,"give me bigger nuclei, fainter actin and fewer cells",20,0.0021226915729144554,0.9815438204637311,True,0.3073789179325104,numerical_window_rich_v3_s0
+seen_comp,comp_test,actin_dn+gpatch_dn+fewer_cells,"give me fainter actin, smoother Golgi staining and fewer cells",14,0.0014858841010401188,0.9925974854227405,True,0.39120927453041077,numerical_window_rich_v3_s0
+seen_comp,comp_test,actin_dn+gpatch_up+fewer_cells,"give me fainter actin, patchy Golgi staining and fewer cells",23,0.002441095308851624,0.9891547204374194,False,0.5659732222557068,numerical_window_rich_v3_s0
+seen_comp,comp_test,nuc_dn+mito_up+fewer_cells,"give me smaller nuclei, brighter mitochondria and fewer cells",62,0.006580343876034812,0.990628446374414,False,0.23610042035579681,numerical_window_rich_v3_s0
+seen_comp,comp_test,aedge_dn+gpatch_up+fewer_cells,"give me actin pulled away from the cell edge, patchy Golgi staining and fewer cells",131,0.013903629802589683,0.9858871878802519,False,0.6608911156654358,numerical_window_rich_v3_s0
+seen_comp,refuse,mito_dn+actin_dn+aedge_dn,"give me dimmer mitochondria, fainter actin and actin pulled away from the cell edge",0,0.0,,False,0.299602210521698,numerical_window_rich_v3_s0
+seen_comp,refuse,mito_dn+actin_up+aedge_dn,"give me dimmer mitochondria, brighter actin and actin pulled away from the cell edge",0,0.0,,False,0.2369469851255417,numerical_window_rich_v3_s0
+seen_comp,refuse,nuc_dn+dna_up+mito_dn,"give me smaller nuclei, brighter DNA staining and dimmer mitochondria",0,0.0,,False,0.23567497730255127,numerical_window_rich_v3_s0
+seen_comp,refuse,nuc_up+actin_up+gpatch_up,"give me bigger nuclei, brighter actin and patchy Golgi staining",0,0.0,,False,0.232137531042099,numerical_window_rich_v3_s0
+seen_comp,refuse,elong_up+nuc_up+gpatch_up,"give me elongated cells, bigger nuclei and patchy Golgi staining",0,0.0,,False,0.3154953718185425,numerical_window_rich_v3_s0
+seen_comp,refuse,nuc_up+dna_up+gpatch_up,"give me bigger nuclei, brighter DNA staining and patchy Golgi staining",0,0.0,,False,0.2412697821855545,numerical_window_rich_v3_s0
+seen_comp,refuse,elong_up+mito_up+actin_up,"give me elongated cells, brighter mitochondria and brighter actin",0,0.0,,False,0.2421567440032959,numerical_window_rich_v3_s0
+seen_comp,refuse,mito_up+aedge_dn+gpatch_dn,"give me brighter mitochondria, actin pulled away from the cell edge and smoother Golgi staining",0,0.0,,False,0.23035754263401031,numerical_window_rich_v3_s0
+seen_comp,refuse,dna_dn+actin_up+aedge_dn,"give me dimmer DNA staining, brighter actin and actin pulled away from the cell edge",0,0.0,,False,0.253179669380188,numerical_window_rich_v3_s0
+seen_comp,refuse,nuc_dn+mito_dn+actin_up,"give me smaller nuclei, dimmer mitochondria and brighter actin",0,0.0,,False,0.20010080933570862,numerical_window_rich_v3_s0
+seen_comp,refuse,elong_up+dna_dn+gpatch_up,"give me elongated cells, dimmer DNA staining and patchy Golgi staining",0,0.0,,False,0.3199308514595032,numerical_window_rich_v3_s0
+seen_comp,refuse,dna_dn+mito_dn+actin_up,"give me dimmer DNA staining, dimmer mitochondria and brighter actin",0,0.0,,False,0.21111053228378296,numerical_window_rich_v3_s0
+seen_comp,refuse,nuc_up+dna_dn+actin_dn,"give me bigger nuclei, dimmer DNA staining and fainter actin",0,0.0,,False,0.2394554167985916,numerical_window_rich_v3_s0
+seen_comp,refuse,dna_dn+actin_up+gpatch_up,"give me dimmer DNA staining, brighter actin and patchy Golgi staining",0,0.0,,False,0.23971489071846008,numerical_window_rich_v3_s0
+seen_comp,refuse,elong_up+mito_up+gpatch_dn,"give me elongated cells, brighter mitochondria and smoother Golgi staining",0,0.0,,False,0.2486671507358551,numerical_window_rich_v3_s0
+seen_comp,refuse,nuc_dn+mito_dn+gpatch_dn,"give me smaller nuclei, dimmer mitochondria and smoother Golgi staining",0,0.0,,False,0.2231900990009308,numerical_window_rich_v3_s0
+seen_comp,refuse,elong_up+nuc_up+dna_up,"give me elongated cells, bigger nuclei and brighter DNA staining",0,0.0,,False,0.2505195736885071,numerical_window_rich_v3_s0
+seen_comp,refuse,dna_dn+mito_up+aedge_dn,"give me dimmer DNA staining, brighter mitochondria and actin pulled away from the cell edge",0,0.0,,False,0.25462183356285095,numerical_window_rich_v3_s0
+seen_comp,refuse,mito_up+actin_dn+gpatch_dn,"give me brighter mitochondria, fainter actin and smoother Golgi staining",0,0.0,,False,0.2116176187992096,numerical_window_rich_v3_s0
+seen_comp,refuse,nuc_dn+aedge_dn+gpatch_dn,"give me smaller nuclei, actin pulled away from the cell edge and smoother Golgi staining",0,0.0,,False,0.2968257963657379,numerical_window_rich_v3_s0
+val_comp,train,fewer_cells,kill most of the cells,28,0.022292993630573247,0.8603711028385296,True,0.831011176109314,numerical_window_rich_v3_s0
+val_comp,train,fewer_cells,reduce the number of cells in the well,28,0.022292993630573247,0.8584225221033039,True,0.8039155602455139,numerical_window_rich_v3_s0
+val_comp,train,fewer_cells,make the cell population shrink,28,0.022292993630573247,0.8584516053978595,True,0.7586774826049805,numerical_window_rich_v3_s0
+val_comp,para_test,fewer_cells,leave far fewer cells alive,28,0.022292993630573247,0.8691833410888786,True,0.8903675675392151,numerical_window_rich_v3_s0
+val_comp,para_test,fewer_cells,thin out the culture by killing cells,28,0.022292993630573247,0.861010935318753,True,0.8166472911834717,numerical_window_rich_v3_s0
+val_comp,train,elong_up,make the cells elongated,13,0.010350318471337579,0.9088124265115417,False,0.2372736632823944,numerical_window_rich_v3_s0
+val_comp,train,elong_up,stretch the cells into long shapes,13,0.010350318471337579,0.9076984961940715,False,0.24487289786338806,numerical_window_rich_v3_s0
+val_comp,train,elong_up,make the cells more spindle-like,13,0.010350318471337579,0.9062751407884152,False,0.2691880464553833,numerical_window_rich_v3_s0
+val_comp,para_test,elong_up,turn the cells long and thin,13,0.010350318471337579,0.8883284856736184,False,0.490689218044281,numerical_window_rich_v3_s0
+val_comp,para_test,elong_up,give the cells an elongated outline,13,0.010350318471337579,0.9072653010706109,False,0.2804872393608093,numerical_window_rich_v3_s0
+val_comp,train,nuc_up,make the nuclei bigger,5,0.003980891719745223,0.4342126298960831,False,0.08083677291870117,numerical_window_rich_v3_s0
+val_comp,train,nuc_up,enlarge the nuclei,5,0.003980891719745223,0.4386890487609912,False,0.08222530782222748,numerical_window_rich_v3_s0
+val_comp,train,nuc_up,swell the cell nuclei,5,0.003980891719745223,0.5552358113509193,False,0.14585751295089722,numerical_window_rich_v3_s0
+val_comp,para_test,nuc_up,increase nuclear size,5,0.003980891719745223,0.43389288569144685,False,0.09470812976360321,numerical_window_rich_v3_s0
+val_comp,para_test,nuc_up,grow larger nuclei,5,0.003980891719745223,0.432933653077538,False,0.0845220759510994,numerical_window_rich_v3_s0
+val_comp,train,nuc_dn,make the nuclei smaller,8,0.006369426751592357,0.9559294871794871,False,0.1856231391429901,numerical_window_rich_v3_s0
+val_comp,train,nuc_dn,shrink the nuclei,8,0.006369426751592357,0.8776041666666667,False,0.14581431448459625,numerical_window_rich_v3_s0
+val_comp,train,nuc_dn,reduce nuclear size,8,0.006369426751592357,0.9290865384615384,False,0.14647328853607178,numerical_window_rich_v3_s0
+val_comp,para_test,nuc_dn,make the nuclei compact and small,8,0.006369426751592357,0.9664463141025641,False,0.20506879687309265,numerical_window_rich_v3_s0
+val_comp,para_test,nuc_dn,decrease the size of the nucleus,8,0.006369426751592357,0.9532251602564104,False,0.19621573388576508,numerical_window_rich_v3_s0
+val_comp,train,dna_up,make the DNA stain brighter,7,0.005573248407643312,0.4895344847306416,False,0.07447922229766846,numerical_window_rich_v3_s0
+val_comp,train,dna_up,increase the DNA staining intensity,7,0.005573248407643312,0.6343360402607802,False,0.0999624952673912,numerical_window_rich_v3_s0
+val_comp,train,dna_up,make the nuclei stain more strongly for DNA,7,0.005573248407643312,0.7966373098478783,False,0.12837807834148407,numerical_window_rich_v3_s0
+val_comp,para_test,dna_up,condense the DNA so nuclei glow brighter,7,0.005573248407643312,0.7162301269587098,False,0.08213052898645401,numerical_window_rich_v3_s0
+val_comp,para_test,dna_up,raise the Hoechst signal in the nuclei,7,0.005573248407643312,0.8752144572801097,False,0.13983985781669617,numerical_window_rich_v3_s0
+val_comp,train,dna_dn,make the DNA stain dimmer,1,0.0007961783439490446,0.8844621513944223,False,0.0990910455584526,numerical_window_rich_v3_s0
+val_comp,train,dna_dn,decrease DNA staining,1,0.0007961783439490446,0.8940239043824701,False,0.16128847002983093,numerical_window_rich_v3_s0
+val_comp,train,dna_dn,make the nuclei stain faintly for DNA,1,0.0007961783439490446,0.8956175298804782,False,0.13697290420532227,numerical_window_rich_v3_s0
+val_comp,para_test,dna_dn,weaken the Hoechst signal,1,0.0007961783439490446,0.8860557768924302,False,0.19427919387817383,numerical_window_rich_v3_s0
+val_comp,para_test,dna_dn,lower the DNA intensity in nuclei,1,0.0007961783439490446,0.8876494023904383,False,0.1632155030965805,numerical_window_rich_v3_s0
+val_comp,train,mito_up,make the mitochondria brighter,8,0.006369426751592357,0.260166266025641,False,0.0598006434738636,numerical_window_rich_v3_s0
+val_comp,train,mito_up,increase the mitochondrial signal,8,0.006369426751592357,0.3350861378205128,False,0.09187725931406021,numerical_window_rich_v3_s0
+val_comp,train,mito_up,boost MitoTracker staining,8,0.006369426751592357,0.5139723557692308,False,0.11501334607601166,numerical_window_rich_v3_s0
+val_comp,para_test,mito_up,make the mitochondria glow more,8,0.006369426751592357,0.2825020032051282,False,0.06379231810569763,numerical_window_rich_v3_s0
+val_comp,para_test,mito_up,raise mitochondrial staining intensity,8,0.006369426751592357,0.307041266025641,False,0.10280858725309372,numerical_window_rich_v3_s0
+val_comp,train,mito_dn,make the mitochondria dimmer,7,0.005573248407643312,0.8708681230698845,False,0.10460774600505829,numerical_window_rich_v3_s0
+val_comp,train,mito_dn,reduce the mitochondrial signal,7,0.005573248407643312,0.9030081207823402,False,0.16362148523330688,numerical_window_rich_v3_s0
+val_comp,train,mito_dn,weaken MitoTracker staining,7,0.005573248407643312,0.855084067253803,False,0.13739711046218872,numerical_window_rich_v3_s0
+val_comp,para_test,mito_dn,make the mitochondria fade,7,0.005573248407643312,0.8908841358801327,False,0.1348554641008377,numerical_window_rich_v3_s0
+val_comp,para_test,mito_dn,lower mitochondrial staining intensity,7,0.005573248407643312,0.8977467688436463,False,0.18006473779678345,numerical_window_rich_v3_s0
+val_comp,train,actin_up,make the actin brighter,4,0.0031847133757961785,0.4870207667731629,False,0.07172262668609619,numerical_window_rich_v3_s0
+val_comp,train,actin_up,increase actin staining,4,0.0031847133757961785,0.3444488817891374,False,0.13848192989826202,numerical_window_rich_v3_s0
+val_comp,train,actin_up,strengthen the phalloidin signal,4,0.0031847133757961785,0.34105431309904155,False,0.11800768971443176,numerical_window_rich_v3_s0
+val_comp,para_test,actin_up,make the actin cytoskeleton more intense,4,0.0031847133757961785,0.4474840255591055,False,0.12194128334522247,numerical_window_rich_v3_s0
+val_comp,para_test,actin_up,raise the amount of stained actin,4,0.0031847133757961785,0.39077476038338654,False,0.14290475845336914,numerical_window_rich_v3_s0
+val_comp,train,actin_dn,make the actin fainter,13,0.010350318471337579,0.9566495451451205,False,0.21535298228263855,numerical_window_rich_v3_s0
+val_comp,train,actin_dn,reduce actin staining,13,0.010350318471337579,0.9544835695278173,False,0.16936896741390228,numerical_window_rich_v3_s0
+val_comp,train,actin_dn,weaken the phalloidin signal,13,0.010350318471337579,0.9581966705860512,False,0.19093428552150726,numerical_window_rich_v3_s0
+val_comp,para_test,actin_dn,make the actin cytoskeleton dimmer,13,0.010350318471337579,0.9388885450832354,False,0.13054142892360687,numerical_window_rich_v3_s0
+val_comp,para_test,actin_dn,lower the actin signal in the cells,13,0.010350318471337579,0.90169564948326,False,0.5278633236885071,numerical_window_rich_v3_s0
+val_comp,rare_test,aedge_up,push the actin out to the cell edge,1,0.0007961783439490446,0.6302788844621514,False,0.28306975960731506,numerical_window_rich_v3_s0
+val_comp,rare_test,aedge_up,concentrate actin at the cell periphery,1,0.0007961783439490446,0.5059760956175299,False,0.3815656006336212,numerical_window_rich_v3_s0
+val_comp,rare_test,aedge_up,move the actin to the rim of the cell,1,0.0007961783439490446,0.7737051792828685,False,0.23825696110725403,numerical_window_rich_v3_s0
+val_comp,rare_test,aedge_up,redistribute actin toward the cell border,1,0.0007961783439490446,0.6254980079681275,False,0.3745441436767578,numerical_window_rich_v3_s0
+val_comp,rare_test,aedge_up,make actin accumulate at the cell margin,1,0.0007961783439490446,0.5585657370517928,False,0.4369044899940491,numerical_window_rich_v3_s0
+val_comp,train,aedge_dn,pull the actin away from the cell edge,21,0.016719745222929936,0.8526315789473685,False,0.29330524802207947,numerical_window_rich_v3_s0
+val_comp,train,aedge_dn,move actin toward the cell centre,21,0.016719745222929936,0.8510121457489879,False,0.2997143566608429,numerical_window_rich_v3_s0
+val_comp,train,aedge_dn,draw the actin inward from the periphery,21,0.016719745222929936,0.8498168498168498,False,0.2821841835975647,numerical_window_rich_v3_s0
+val_comp,para_test,aedge_dn,deplete actin at the cell border,21,0.016719745222929936,0.8484673221515328,False,0.5015270113945007,numerical_window_rich_v3_s0
+val_comp,para_test,aedge_dn,shift actin from the rim into the interior,21,0.016719745222929936,0.8501638712165027,False,0.2665724754333496,numerical_window_rich_v3_s0
+val_comp,train,gpatch_up,make the Golgi and membrane staining patchy,19,0.015127388535031847,0.6514487512232481,False,0.21078388392925262,numerical_window_rich_v3_s0
+val_comp,train,gpatch_up,make the WGA signal uneven and blotchy,19,0.015127388535031847,0.6374079904693017,False,0.16152583062648773,numerical_window_rich_v3_s0
+val_comp,train,gpatch_up,fragment the Golgi into patches,19,0.015127388535031847,0.6560013615283156,False,0.22755210101604462,numerical_window_rich_v3_s0
+val_comp,para_test,gpatch_up,make the membrane stain look spotty,19,0.015127388535031847,0.6353656979960005,False,0.1894012838602066,numerical_window_rich_v3_s0
+val_comp,para_test,gpatch_up,scatter the Golgi signal into clumps,19,0.015127388535031847,0.6761689997021657,False,0.14510561525821686,numerical_window_rich_v3_s0
+val_comp,train,gpatch_dn,make the Golgi and membrane staining smoother,3,0.0023885350318471337,0.9409417398244214,False,0.12814566493034363,numerical_window_rich_v3_s0
+val_comp,train,gpatch_dn,make the WGA signal more even,3,0.0023885350318471337,0.9438680500133014,False,0.11434971541166306,numerical_window_rich_v3_s0
+val_comp,train,gpatch_dn,reduce the patchiness of the Golgi stain,3,0.0023885350318471337,0.9276403298749668,False,0.15556928515434265,numerical_window_rich_v3_s0
+val_comp,para_test,gpatch_dn,make the membrane stain look uniform,3,0.0023885350318471337,0.9664804469273743,False,0.16727635264396667,numerical_window_rich_v3_s0
+val_comp,para_test,gpatch_dn,smooth out the Golgi signal,3,0.0023885350318471337,0.9694067571162545,False,0.09968776255846024,numerical_window_rich_v3_s0
+val_comp,refuse,gpatch_dn+gmean_flat,make the Golgi staining smoother while keeping its brightness normal,0,0.0,,False,0.1100810244679451,numerical_window_rich_v3_s0
+val_comp,refuse,gpatch_dn+gmean_flat,even out the Golgi signal without changing how bright it is,0,0.0,,False,0.12077499181032181,numerical_window_rich_v3_s0
+val_comp,refuse,nuc_up+mito_up,give me bigger nuclei and brighter mitochondria,0,0.0,,False,0.05547788366675377,numerical_window_rich_v3_s0
+val_comp,refuse,nuc_up+mito_dn,give me bigger nuclei and dimmer mitochondria,0,0.0,,False,0.06405895948410034,numerical_window_rich_v3_s0
+val_comp,refuse,nuc_up+actin_up,give me bigger nuclei and brighter actin,0,0.0,,False,0.047514937818050385,numerical_window_rich_v3_s0
+val_comp,refuse,nuc_up+gpatch_up,give me bigger nuclei and patchy Golgi staining,0,0.0,,False,0.10934561491012573,numerical_window_rich_v3_s0
+val_comp,refuse,nuc_up+gpatch_dn,give me bigger nuclei and smoother Golgi staining,0,0.0,,False,0.05316143482923508,numerical_window_rich_v3_s0
+val_comp,refuse,dna_up+mito_dn,give me brighter DNA staining and dimmer mitochondria,0,0.0,,False,0.03940180316567421,numerical_window_rich_v3_s0
+val_comp,refuse,dna_up+gpatch_dn,give me brighter DNA staining and smoother Golgi staining,0,0.0,,False,0.030338691547513008,numerical_window_rich_v3_s0
+val_comp,refuse,dna_dn+mito_up,give me dimmer DNA staining and brighter mitochondria,0,0.0,,False,0.03879990056157112,numerical_window_rich_v3_s0
+val_comp,refuse,dna_dn+actin_up,give me dimmer DNA staining and brighter actin,0,0.0,,False,0.03210292384028435,numerical_window_rich_v3_s0
+val_comp,refuse,dna_dn+aedge_dn,give me dimmer DNA staining and actin pulled away from the cell edge,0,0.0,,False,0.1030639111995697,numerical_window_rich_v3_s0
+val_comp,refuse,dna_dn+gpatch_up,give me dimmer DNA staining and patchy Golgi staining,0,0.0,,False,0.08924593776464462,numerical_window_rich_v3_s0
+val_comp,refuse,dna_dn+gpatch_dn,give me dimmer DNA staining and smoother Golgi staining,0,0.0,,False,0.03356679901480675,numerical_window_rich_v3_s0
+val_comp,refuse,mito_up+gpatch_dn,give me brighter mitochondria and smoother Golgi staining,0,0.0,,False,0.046778734773397446,numerical_window_rich_v3_s0
+val_comp,refuse,mito_dn+actin_up,give me dimmer mitochondria and brighter actin,0,0.0,,False,0.028325997292995453,numerical_window_rich_v3_s0
+val_comp,refuse,actin_up+gpatch_dn,give me brighter actin and smoother Golgi staining,0,0.0,,False,0.043374430388212204,numerical_window_rich_v3_s0
+val_comp,comp_test,mito_up+fewer_cells,give me brighter mitochondria and fewer cells,15,0.01194267515923567,0.9346226161697556,True,0.09964584559202194,numerical_window_rich_v3_s0
+val_comp,comp_test,dna_up+actin_dn,give me brighter DNA staining and fainter actin,1,0.0007961783439490446,0.9864541832669323,False,0.04024778679013252,numerical_window_rich_v3_s0
+val_comp,comp_test,dna_up+mito_up,give me brighter DNA staining and brighter mitochondria,2,0.0015923566878980893,0.8795853269537479,False,0.04798475652933121,numerical_window_rich_v3_s0
+val_comp,comp_test,dna_up+!mito_up,produce brighter DNA staining while keeping the mitochondria normal,4,0.0031847133757961785,0.6906948881789137,False,0.10809192061424255,numerical_window_rich_v3_s0
+val_comp,comp_test,nuc_up+fewer_cells,give me bigger nuclei and fewer cells,5,0.003980891719745223,0.9419664268585132,False,0.3064184784889221,numerical_window_rich_v3_s0
+val_comp,comp_test,aedge_dn+!gpatch_up,produce actin pulled away from the cell edge without making the Golgi patchy,11,0.00875796178343949,0.8003650967506389,False,0.22474277019500732,numerical_window_rich_v3_s0
+val_comp,comp_test,actin_up+!dna_up,produce brighter actin without making the DNA brighter,3,0.0023885350318471337,0.5280659749933492,False,0.1110854297876358,numerical_window_rich_v3_s0
+val_comp,comp_test,mito_up+gpatch_up,give me brighter mitochondria and patchy Golgi staining,2,0.0015923566878980893,0.8301435406698565,False,0.07870457321405411,numerical_window_rich_v3_s0
+val_comp,comp_test,aedge_dn+gpatch_up,give me actin pulled away from the cell edge and patchy Golgi staining,4,0.0031847133757961785,0.902755591054313,False,0.2593029737472534,numerical_window_rich_v3_s0
+val_comp,comp_test,aedge_dn+!elong_up,produce actin pulled away from the cell edge without stretching the cells,18,0.014331210191082803,0.8389427391850655,False,0.26771965622901917,numerical_window_rich_v3_s0
+val_comp,comp_test,fewer_cells+!elong_up,produce fewer cells without stretching the cells,27,0.021496815286624203,0.8802398818672211,True,0.5334030389785767,numerical_window_rich_v3_s0
+val_comp,comp_test,nuc_dn+gpatch_up,give me smaller nuclei and patchy Golgi staining,1,0.0007961783439490446,0.9394422310756972,False,0.17670534551143646,numerical_window_rich_v3_s0
+val_comp,comp_test,mito_up+!dna_up,produce brighter mitochondria without making the DNA brighter,2,0.0015923566878980893,0.532695374800638,False,0.08736596256494522,numerical_window_rich_v3_s0
+val_comp,comp_test,dna_up+fewer_cells,give me brighter DNA staining and fewer cells,19,0.015127388535031847,0.9390290601199847,True,0.13472294807434082,numerical_window_rich_v3_s0
+val_comp,comp_test,nuc_dn+!dna_up,produce smaller nuclei without making the DNA brighter,1,0.0007961783439490446,0.9880478087649402,False,0.16689671576023102,numerical_window_rich_v3_s0
+val_comp,comp_test,nuc_dn+aedge_dn,give me smaller nuclei and actin pulled away from the cell edge,3,0.0023885350318471337,0.962756052141527,False,0.33889535069465637,numerical_window_rich_v3_s0
+val_comp,comp_test,nuc_dn+!elong_up,produce smaller nuclei without stretching the cells,5,0.003980891719745223,0.930775379696243,False,0.19376598298549652,numerical_window_rich_v3_s0
+val_comp,comp_test,gpatch_dn+!nuc_up,produce smoother Golgi staining without enlarging the nuclei,3,0.0023885350318471337,0.9066241021548285,False,0.15247255563735962,numerical_window_rich_v3_s0
+val_comp,comp_test,nuc_up+!mito_up,produce bigger nuclei while keeping the mitochondria normal,5,0.003980891719745223,0.5096722621902479,False,0.12360488623380661,numerical_window_rich_v3_s0
+val_comp,comp_test,elong_up+!gpatch_up,produce elongated cells without making the Golgi patchy,13,0.010350318471337579,0.9015099944303484,False,0.16166429221630096,numerical_window_rich_v3_s0
+val_comp,comp_test,elong_up+fewer_cells,give me elongated cells and fewer cells,1,0.0007961783439490446,0.22231075697211156,False,0.2207329422235489,numerical_window_rich_v3_s0
+val_comp,comp_test,mito_dn+!gpatch_up,produce dimmer mitochondria without making the Golgi patchy,6,0.004777070063694267,0.8104000000000001,False,0.0821068063378334,numerical_window_rich_v3_s0
+val_comp,comp_test,actin_dn+aedge_dn,give me fainter actin and actin pulled away from the cell edge,5,0.003980891719745223,0.9712230215827337,False,0.32123327255249023,numerical_window_rich_v3_s0
+val_comp,comp_test,fewer_cells+!gpatch_up,produce fewer cells without making the Golgi patchy,10,0.007961783439490446,0.696629213483146,False,0.5688334703445435,numerical_window_rich_v3_s0
+val_comp,comp_test,actin_up+gpatch_up,give me brighter actin and patchy Golgi staining,1,0.0007961783439490446,0.8685258964143426,False,0.07912742346525192,numerical_window_rich_v3_s0
+val_comp,comp_test,mito_dn+!nuc_up,produce dimmer mitochondria without enlarging the nuclei,7,0.005573248407643312,0.8940866979297724,False,0.12870340049266815,numerical_window_rich_v3_s0
+val_comp,comp_test,gpatch_up+!nuc_up,produce patchy Golgi staining without enlarging the nuclei,19,0.015127388535031847,0.650767987065481,False,0.20924866199493408,numerical_window_rich_v3_s0
+val_comp,comp_test,actin_dn+!gpatch_up,produce fainter actin without making the Golgi patchy,11,0.00875796178343949,0.9660094925155167,False,0.12276118993759155,numerical_window_rich_v3_s0
+val_comp,train,fewer_cells+!nuc_up,produce fewer cells without enlarging the nuclei,23,0.018312101910828025,0.8334214887689975,True,0.6837191581726074,numerical_window_rich_v3_s0
+val_comp,train,fewer_cells+!nuc_up,"I need fewer cells, without enlarging the nuclei",23,0.018312101910828025,0.8347614513910928,True,0.7008220553398132,numerical_window_rich_v3_s0
+val_comp,train,dna_up+!nuc_up,produce brighter DNA staining without enlarging the nuclei,7,0.005573248407643312,0.6246139768958023,False,0.10640938580036163,numerical_window_rich_v3_s0
+val_comp,train,dna_up+!nuc_up,"I need brighter DNA staining, without enlarging the nuclei",7,0.005573248407643312,0.6282740478096763,False,0.09584794193506241,numerical_window_rich_v3_s0
+val_comp,train,mito_up+!gpatch_up,produce brighter mitochondria without making the Golgi patchy,1,0.0007961783439490446,0.09641434262948212,False,0.059782955795526505,numerical_window_rich_v3_s0
+val_comp,train,mito_up+!gpatch_up,"I need brighter mitochondria, without making the Golgi patchy",1,0.0007961783439490446,0.09800796812749002,False,0.05806709825992584,numerical_window_rich_v3_s0
+val_comp,train,nuc_dn+fewer_cells,give me smaller nuclei and fewer cells,10,0.007961783439490446,0.9276083467094703,True,0.47221753001213074,numerical_window_rich_v3_s0
+val_comp,train,nuc_dn+fewer_cells,I want smaller nuclei together with fewer cells,10,0.007961783439490446,0.9238362760834672,True,0.42713335156440735,numerical_window_rich_v3_s0
+val_comp,train,dna_up+gpatch_up,give me brighter DNA staining and patchy Golgi staining,2,0.0015923566878980893,0.9477671451355661,False,0.047644197940826416,numerical_window_rich_v3_s0
+val_comp,train,dna_up+gpatch_up,I want brighter DNA staining together with patchy Golgi staining,2,0.0015923566878980893,0.9493620414673046,False,0.04622727632522583,numerical_window_rich_v3_s0
+val_comp,train,gpatch_dn+fewer_cells,give me smoother Golgi staining and fewer cells,1,0.0007961783439490446,0.9641434262948207,False,0.1722777634859085,numerical_window_rich_v3_s0
+val_comp,train,gpatch_dn+fewer_cells,I want smoother Golgi staining together with fewer cells,1,0.0007961783439490446,0.9625498007968127,False,0.1855735331773758,numerical_window_rich_v3_s0
+val_comp,train,elong_up+actin_dn,give me elongated cells and fainter actin,3,0.0023885350318471337,0.9819100824687417,False,0.10572507232427597,numerical_window_rich_v3_s0
+val_comp,train,elong_up+actin_dn,I want elongated cells together with fainter actin,3,0.0023885350318471337,0.9816440542697525,False,0.09602873772382736,numerical_window_rich_v3_s0
+val_comp,train,nuc_up+!dna_up,produce bigger nuclei without making the DNA brighter,5,0.003980891719745223,0.5107913669064748,False,0.12028485536575317,numerical_window_rich_v3_s0
+val_comp,train,nuc_up+!dna_up,"I need bigger nuclei, without making the DNA brighter",5,0.003980891719745223,0.48904876099120703,False,0.11714783310890198,numerical_window_rich_v3_s0
+val_comp,train,aedge_dn+!mito_up,produce actin pulled away from the cell edge while keeping the mitochondria normal,15,0.01194267515923567,0.8716089175396187,False,0.2916613221168518,numerical_window_rich_v3_s0
+val_comp,train,aedge_dn+!mito_up,"I need actin pulled away from the cell edge, while keeping the mitochondria normal",15,0.01194267515923567,0.869836153639538,False,0.29418808221817017,numerical_window_rich_v3_s0
+val_comp,train,dna_dn+fewer_cells,give me dimmer DNA staining and fewer cells,0,0.0,,False,0.21623554825782776,numerical_window_rich_v3_s0
+val_comp,train,dna_dn+fewer_cells,I want dimmer DNA staining together with fewer cells,0,0.0,,False,0.1455288678407669,numerical_window_rich_v3_s0
+val_comp,train,actin_dn+!dna_up,produce fainter actin without making the DNA brighter,11,0.00875796178343949,0.9452719970792259,False,0.21923720836639404,numerical_window_rich_v3_s0
+val_comp,train,actin_dn+!dna_up,"I need fainter actin, without making the DNA brighter",11,0.00875796178343949,0.9460752099306317,False,0.2285187840461731,numerical_window_rich_v3_s0
+val_comp,train,aedge_dn+fewer_cells,give me actin pulled away from the cell edge and fewer cells,21,0.016719745222929936,0.9592442645074224,True,0.7439694404602051,numerical_window_rich_v3_s0
+val_comp,train,aedge_dn+fewer_cells,I want actin pulled away from the cell edge together with fewer cells,21,0.016719745222929936,0.9588972431077695,True,0.7638667225837708,numerical_window_rich_v3_s0
+val_comp,train,gpatch_dn+!dna_up,produce smoother Golgi staining without making the DNA brighter,2,0.0015923566878980893,0.9082934609250398,False,0.14113816618919373,numerical_window_rich_v3_s0
+val_comp,train,gpatch_dn+!dna_up,"I need smoother Golgi staining, without making the DNA brighter",2,0.0015923566878980893,0.939792663476874,False,0.12247829884290695,numerical_window_rich_v3_s0
+val_comp,train,mito_up+aedge_dn,give me brighter mitochondria and actin pulled away from the cell edge,2,0.0015923566878980893,0.9401913875598087,False,0.0618349127471447,numerical_window_rich_v3_s0
+val_comp,train,mito_up+aedge_dn,I want brighter mitochondria together with actin pulled away from the cell edge,2,0.0015923566878980893,0.9401913875598087,False,0.04074909910559654,numerical_window_rich_v3_s0
+val_comp,train,dna_dn+!elong_up,produce dimmer DNA staining without stretching the cells,0,0.0,,False,0.11570104956626892,numerical_window_rich_v3_s0
+val_comp,train,dna_dn+!elong_up,"I need dimmer DNA staining, without stretching the cells",0,0.0,,False,0.12377733737230301,numerical_window_rich_v3_s0
+val_comp,train,elong_up+aedge_dn,give me elongated cells and actin pulled away from the cell edge,2,0.0015923566878980893,0.9537480063795852,False,0.19186224043369293,numerical_window_rich_v3_s0
+val_comp,train,elong_up+aedge_dn,I want elongated cells together with actin pulled away from the cell edge,2,0.0015923566878980893,0.9537480063795853,False,0.14453643560409546,numerical_window_rich_v3_s0
+val_comp,train,elong_up+dna_up,give me elongated cells and brighter DNA staining,1,0.0007961783439490446,0.9282868525896415,False,0.056259505450725555,numerical_window_rich_v3_s0
+val_comp,train,elong_up+dna_up,I want elongated cells together with brighter DNA staining,1,0.0007961783439490446,0.9274900398406374,False,0.05517575517296791,numerical_window_rich_v3_s0
+val_comp,train,actin_dn+!elong_up,produce fainter actin without stretching the cells,10,0.007961783439490446,0.9330256821829855,False,0.21796832978725433,numerical_window_rich_v3_s0
+val_comp,train,actin_dn+!elong_up,"I need fainter actin, without stretching the cells",10,0.007961783439490446,0.9296548956661316,False,0.2383793592453003,numerical_window_rich_v3_s0
+val_comp,train,actin_up+fewer_cells,give me brighter actin and fewer cells,4,0.0031847133757961785,0.9698482428115016,True,0.2544742226600647,numerical_window_rich_v3_s0
+val_comp,train,actin_up+fewer_cells,I want brighter actin together with fewer cells,4,0.0031847133757961785,0.9728434504792333,True,0.37514516711235046,numerical_window_rich_v3_s0
+val_comp,train,mito_dn+fewer_cells,give me dimmer mitochondria and fewer cells,1,0.0007961783439490446,0.9649402390438248,False,0.20040500164031982,numerical_window_rich_v3_s0
+val_comp,train,mito_dn+fewer_cells,I want dimmer mitochondria together with fewer cells,1,0.0007961783439490446,0.9601593625498007,False,0.1461372971534729,numerical_window_rich_v3_s0
+val_comp,train,dna_dn+!nuc_up,produce dimmer DNA staining without enlarging the nuclei,0,0.0,,False,0.1335967481136322,numerical_window_rich_v3_s0
+val_comp,train,dna_dn+!nuc_up,"I need dimmer DNA staining, without enlarging the nuclei",0,0.0,,False,0.13312219083309174,numerical_window_rich_v3_s0
+val_comp,train,elong_up+nuc_dn,give me elongated cells and smaller nuclei,2,0.0015923566878980893,0.9529505582137161,False,0.10332845151424408,numerical_window_rich_v3_s0
+val_comp,train,elong_up+nuc_dn,I want elongated cells together with smaller nuclei,2,0.0015923566878980893,0.9541467304625199,False,0.1042846292257309,numerical_window_rich_v3_s0
+val_comp,train,nuc_dn+dna_up,give me smaller nuclei and brighter DNA staining,4,0.0031847133757961785,0.9512779552715654,False,0.040836457163095474,numerical_window_rich_v3_s0
+val_comp,train,nuc_dn+dna_up,I want smaller nuclei together with brighter DNA staining,4,0.0031847133757961785,0.9514776357827477,False,0.04042840003967285,numerical_window_rich_v3_s0
+val_comp,train,dna_up+!gpatch_up,produce brighter DNA staining without making the Golgi patchy,2,0.0015923566878980893,0.8564593301435406,False,0.08147531002759933,numerical_window_rich_v3_s0
+val_comp,train,dna_up+!gpatch_up,"I need brighter DNA staining, without making the Golgi patchy",2,0.0015923566878980893,0.9254385964912281,False,0.08032161742448807,numerical_window_rich_v3_s0
+val_comp,train,actin_up+aedge_dn,give me brighter actin and actin pulled away from the cell edge,1,0.0007961783439490446,0.9370517928286853,False,0.1251997947692871,numerical_window_rich_v3_s0
+val_comp,train,actin_up+aedge_dn,I want brighter actin together with actin pulled away from the cell edge,1,0.0007961783439490446,0.9306772908366534,False,0.052829843014478683,numerical_window_rich_v3_s0
+val_comp,train,actin_dn+fewer_cells,give me fainter actin and fewer cells,9,0.007165605095541401,0.8999376280851822,False,0.5205139517784119,numerical_window_rich_v3_s0
+val_comp,train,actin_dn+fewer_cells,I want fainter actin together with fewer cells,9,0.007165605095541401,0.8969081350797468,False,0.562547504901886,numerical_window_rich_v3_s0
+val_comp,train,mito_up+!nuc_up,produce brighter mitochondria without enlarging the nuclei,7,0.005573248407643312,0.27033055015440927,False,0.08186843991279602,numerical_window_rich_v3_s0
+val_comp,train,mito_up+!nuc_up,"I need brighter mitochondria, without enlarging the nuclei",7,0.005573248407643312,0.2574059247397918,False,0.07808350771665573,numerical_window_rich_v3_s0
+val_comp,train,nuc_up+!gpatch_up,produce bigger nuclei without making the Golgi patchy,5,0.003980891719745223,0.4745003996802558,False,0.08921754360198975,numerical_window_rich_v3_s0
+val_comp,train,nuc_up+!gpatch_up,"I need bigger nuclei, without making the Golgi patchy",5,0.003980891719745223,0.44780175859312554,False,0.0828716978430748,numerical_window_rich_v3_s0
+val_comp,train,gpatch_up+!dna_up,produce patchy Golgi staining without making the DNA brighter,11,0.00875796178343949,0.5380795910916393,False,0.21590839326381683,numerical_window_rich_v3_s0
+val_comp,train,gpatch_up+!dna_up,"I need patchy Golgi staining, without making the DNA brighter",11,0.00875796178343949,0.5358890105878058,False,0.19537988305091858,numerical_window_rich_v3_s0
+val_comp,train,dna_dn+!gpatch_up,produce dimmer DNA staining without making the Golgi patchy,0,0.0,,False,0.09038115292787552,numerical_window_rich_v3_s0
+val_comp,train,dna_dn+!gpatch_up,"I need dimmer DNA staining, without making the Golgi patchy",0,0.0,,False,0.09823651611804962,numerical_window_rich_v3_s0
+val_comp,train,aedge_dn+!nuc_up,produce actin pulled away from the cell edge without enlarging the nuclei,20,0.01592356687898089,0.8428398058252426,False,0.2983906865119934,numerical_window_rich_v3_s0
+val_comp,train,aedge_dn+!nuc_up,"I need actin pulled away from the cell edge, without enlarging the nuclei",20,0.01592356687898089,0.8411812297734628,False,0.2778017520904541,numerical_window_rich_v3_s0
+val_comp,train,fewer_cells+!dna_up,produce fewer cells without making the DNA brighter,8,0.006369426751592357,0.6217948717948718,False,0.5540810823440552,numerical_window_rich_v3_s0
+val_comp,train,fewer_cells+!dna_up,"I need fewer cells, without making the DNA brighter",8,0.006369426751592357,0.6326121794871794,False,0.6521876454353333,numerical_window_rich_v3_s0
+val_comp,train,actin_up+!elong_up,produce brighter actin without stretching the cells,4,0.0031847133757961785,0.38278753993610226,False,0.10627156496047974,numerical_window_rich_v3_s0
+val_comp,train,actin_up+!elong_up,"I need brighter actin, without stretching the cells",4,0.0031847133757961785,0.3903753993610224,False,0.10086001455783844,numerical_window_rich_v3_s0
+val_comp,train,actin_dn+!mito_up,produce fainter actin while keeping the mitochondria normal,12,0.009554140127388535,0.9452371382636655,False,0.18151216208934784,numerical_window_rich_v3_s0
+val_comp,train,actin_dn+!mito_up,"I need fainter actin, while keeping the mitochondria normal",12,0.009554140127388535,0.9457730439442659,False,0.20149916410446167,numerical_window_rich_v3_s0
+val_comp,train,nuc_dn+!mito_up,produce smaller nuclei while keeping the mitochondria normal,6,0.004777070063694267,0.9648,False,0.17930690944194794,numerical_window_rich_v3_s0
+val_comp,train,nuc_dn+!mito_up,"I need smaller nuclei, while keeping the mitochondria normal",6,0.004777070063694267,0.9690666666666666,False,0.19110777974128723,numerical_window_rich_v3_s0
+val_comp,train,actin_up+!mito_up,produce brighter actin while keeping the mitochondria normal,2,0.0015923566878980893,0.6802232854864434,False,0.08885466307401657,numerical_window_rich_v3_s0
+val_comp,train,actin_up+!mito_up,"I need brighter actin, while keeping the mitochondria normal",2,0.0015923566878980893,0.6790271132376395,False,0.08604520559310913,numerical_window_rich_v3_s0
+val_comp,train,dna_up+actin_up,give me brighter DNA staining and brighter actin,1,0.0007961783439490446,0.8796812749003984,False,0.03449653089046478,numerical_window_rich_v3_s0
+val_comp,train,dna_up+actin_up,I want brighter DNA staining together with brighter actin,1,0.0007961783439490446,0.8908366533864541,False,0.02876732498407364,numerical_window_rich_v3_s0
+val_comp,train,elong_up+!dna_up,produce elongated cells without making the DNA brighter,12,0.009554140127388535,0.9022307073954984,False,0.22891946136951447,numerical_window_rich_v3_s0
+val_comp,train,elong_up+!dna_up,"I need elongated cells, without making the DNA brighter",12,0.009554140127388535,0.9026996248660235,False,0.23490329086780548,numerical_window_rich_v3_s0
+val_comp,train,fewer_cells+!mito_up,produce fewer cells while keeping the mitochondria normal,13,0.010350318471337579,0.7350702394950183,False,0.6545228958129883,numerical_window_rich_v3_s0
+val_comp,train,fewer_cells+!mito_up,"I need fewer cells, while keeping the mitochondria normal",13,0.010350318471337579,0.735812859706665,False,0.651543140411377,numerical_window_rich_v3_s0
+val_comp,train,dna_up+!elong_up,produce brighter DNA staining without stretching the cells,6,0.004777070063694267,0.5670666666666667,False,0.0916571170091629,numerical_window_rich_v3_s0
+val_comp,train,dna_up+!elong_up,"I need brighter DNA staining, without stretching the cells",6,0.004777070063694267,0.49759999999999993,False,0.08092865347862244,numerical_window_rich_v3_s0
+val_comp,train,mito_dn+!elong_up,produce dimmer mitochondria without stretching the cells,3,0.0023885350318471337,0.7847831870178239,False,0.14032068848609924,numerical_window_rich_v3_s0
+val_comp,train,mito_dn+!elong_up,"I need dimmer mitochondria, without stretching the cells",3,0.0023885350318471337,0.8377227986166533,False,0.1523468792438507,numerical_window_rich_v3_s0
+val_comp,train,dna_up+aedge_dn,give me brighter DNA staining and actin pulled away from the cell edge,5,0.003980891719745223,0.9598721023181455,False,0.06007525697350502,numerical_window_rich_v3_s0
+val_comp,train,dna_up+aedge_dn,I want brighter DNA staining together with actin pulled away from the cell edge,5,0.003980891719745223,0.9547561950439649,False,0.05500410124659538,numerical_window_rich_v3_s0
+val_comp,train,nuc_up+!elong_up,produce bigger nuclei without stretching the cells,5,0.003980891719745223,0.49256594724220626,False,0.11252551525831223,numerical_window_rich_v3_s0
+val_comp,train,nuc_up+!elong_up,"I need bigger nuclei, without stretching the cells",5,0.003980891719745223,0.47306155075939255,False,0.10734401643276215,numerical_window_rich_v3_s0
+val_comp,train,gpatch_up+!mito_up,produce patchy Golgi staining while keeping the mitochondria normal,12,0.009554140127388535,0.6244640943193998,False,0.16562619805335999,numerical_window_rich_v3_s0
+val_comp,train,gpatch_up+!mito_up,"I need patchy Golgi staining, while keeping the mitochondria normal",12,0.009554140127388535,0.6252679528403001,False,0.17255529761314392,numerical_window_rich_v3_s0
+val_comp,train,elong_up+!nuc_up,produce elongated cells without enlarging the nuclei,12,0.009554140127388535,0.9067189174705251,False,0.25777387619018555,numerical_window_rich_v3_s0
+val_comp,train,elong_up+!nuc_up,"I need elongated cells, without enlarging the nuclei",12,0.009554140127388535,0.9081256698821006,False,0.25670868158340454,numerical_window_rich_v3_s0
+val_comp,train,gpatch_up+!elong_up,produce patchy Golgi staining without stretching the cells,19,0.015127388535031847,0.6480023826745522,False,0.1922464519739151,numerical_window_rich_v3_s0
+val_comp,train,gpatch_up+!elong_up,"I need patchy Golgi staining, without stretching the cells",19,0.015127388535031847,0.6306428966514912,False,0.1697726994752884,numerical_window_rich_v3_s0
+val_comp,train,dna_dn+!mito_up,produce dimmer DNA staining while keeping the mitochondria normal,1,0.0007961783439490446,0.8980079681274901,False,0.12379978597164154,numerical_window_rich_v3_s0
+val_comp,train,dna_dn+!mito_up,"I need dimmer DNA staining, while keeping the mitochondria normal",1,0.0007961783439490446,0.9075697211155379,False,0.1280316859483719,numerical_window_rich_v3_s0
+val_comp,train,nuc_dn+actin_dn,give me smaller nuclei and fainter actin,1,0.0007961783439490446,0.9593625498007968,False,0.09712036699056625,numerical_window_rich_v3_s0
+val_comp,train,nuc_dn+actin_dn,I want smaller nuclei together with fainter actin,1,0.0007961783439490446,0.9633466135458167,False,0.10055898129940033,numerical_window_rich_v3_s0
+val_comp,train,actin_dn+!nuc_up,produce fainter actin without enlarging the nuclei,12,0.009554140127388535,0.9473137727759914,False,0.1873924434185028,numerical_window_rich_v3_s0
+val_comp,train,actin_dn+!nuc_up,"I need fainter actin, without enlarging the nuclei",12,0.009554140127388535,0.9505292068595927,False,0.19371485710144043,numerical_window_rich_v3_s0
+val_comp,train,aedge_dn+!dna_up,produce actin pulled away from the cell edge without making the DNA brighter,11,0.00875796178343949,0.7363271266885725,False,0.2509360611438751,numerical_window_rich_v3_s0
+val_comp,train,aedge_dn+!dna_up,"I need actin pulled away from the cell edge, without making the DNA brighter",11,0.00875796178343949,0.7328952172325666,False,0.2271125167608261,numerical_window_rich_v3_s0
+val_comp,train,actin_up+!nuc_up,produce brighter actin without enlarging the nuclei,4,0.0031847133757961785,0.37539936102236426,False,0.10190906375646591,numerical_window_rich_v3_s0
+val_comp,train,actin_up+!nuc_up,"I need brighter actin, without enlarging the nuclei",4,0.0031847133757961785,0.4139376996805111,False,0.0944485142827034,numerical_window_rich_v3_s0
+val_comp,train,mito_up+!elong_up,produce brighter mitochondria without stretching the cells,6,0.004777070063694267,0.24913333333333332,False,0.07653743773698807,numerical_window_rich_v3_s0
+val_comp,train,mito_up+!elong_up,"I need brighter mitochondria, without stretching the cells",6,0.004777070063694267,0.23233333333333334,False,0.06863239407539368,numerical_window_rich_v3_s0
+val_comp,train,gpatch_up+fewer_cells,give me patchy Golgi staining and fewer cells,17,0.013535031847133758,0.9594549684280492,True,0.6375697255134583,numerical_window_rich_v3_s0
+val_comp,train,gpatch_up+fewer_cells,I want patchy Golgi staining together with fewer cells,17,0.013535031847133758,0.9556093623890235,True,0.5552042126655579,numerical_window_rich_v3_s0
+val_comp,train,nuc_dn+!gpatch_up,produce smaller nuclei without making the Golgi patchy,4,0.0031847133757961785,0.9610623003194888,False,0.14090369641780853,numerical_window_rich_v3_s0
+val_comp,train,nuc_dn+!gpatch_up,"I need smaller nuclei, without making the Golgi patchy",4,0.0031847133757961785,0.9630591054313099,False,0.14978837966918945,numerical_window_rich_v3_s0
+val_comp,train,mito_dn+!dna_up,produce dimmer mitochondria without making the DNA brighter,4,0.0031847133757961785,0.8452476038338659,False,0.15226203203201294,numerical_window_rich_v3_s0
+val_comp,train,mito_dn+!dna_up,"I need dimmer mitochondria, without making the DNA brighter",4,0.0031847133757961785,0.8470447284345047,False,0.14041119813919067,numerical_window_rich_v3_s0
+val_comp,train,elong_up+!mito_up,produce elongated cells while keeping the mitochondria normal,12,0.009554140127388535,0.9043073419078241,False,0.22460335493087769,numerical_window_rich_v3_s0
+val_comp,train,elong_up+!mito_up,"I need elongated cells, while keeping the mitochondria normal",12,0.009554140127388535,0.9043073419078242,False,0.2438076287508011,numerical_window_rich_v3_s0
+val_comp,train,gpatch_dn+!mito_up,produce smoother Golgi staining while keeping the mitochondria normal,3,0.0023885350318471337,0.9446661346102686,False,0.12846262753009796,numerical_window_rich_v3_s0
+val_comp,train,gpatch_dn+!mito_up,"I need smoother Golgi staining, while keeping the mitochondria normal",3,0.0023885350318471337,0.9643522213354616,False,0.12031926959753036,numerical_window_rich_v3_s0
+val_comp,comp_test,dna_up+mito_up+fewer_cells,"give me brighter DNA staining, brighter mitochondria and fewer cells",15,0.01194267515923567,0.928283642224013,True,0.04571199044585228,numerical_window_rich_v3_s0
+val_comp,comp_test,actin_up+gpatch_up+fewer_cells,"give me brighter actin, patchy Golgi staining and fewer cells",4,0.0031847133757961785,0.9606629392971247,True,0.19740845263004303,numerical_window_rich_v3_s0
+val_comp,comp_test,dna_dn+actin_dn+fewer_cells,"give me dimmer DNA staining, fainter actin and fewer cells",0,0.0,,False,0.15305903553962708,numerical_window_rich_v3_s0
+val_comp,comp_test,nuc_dn+gpatch_up+fewer_cells,"give me smaller nuclei, patchy Golgi staining and fewer cells",8,0.006369426751592357,0.9180689102564102,True,0.4597790241241455,numerical_window_rich_v3_s0
+val_comp,comp_test,dna_dn+aedge_dn+fewer_cells,"give me dimmer DNA staining, actin pulled away from the cell edge and fewer cells",0,0.0,,False,0.22956618666648865,numerical_window_rich_v3_s0
+val_comp,comp_test,nuc_up+actin_dn+fewer_cells,"give me bigger nuclei, fainter actin and fewer cells",1,0.0007961783439490446,0.9792828685258964,False,0.18783383071422577,numerical_window_rich_v3_s0
+val_comp,comp_test,actin_dn+gpatch_dn+fewer_cells,"give me fainter actin, smoother Golgi staining and fewer cells",1,0.0007961783439490446,0.9681274900398407,False,0.2229546755552292,numerical_window_rich_v3_s0
+val_comp,comp_test,actin_dn+gpatch_up+fewer_cells,"give me fainter actin, patchy Golgi staining and fewer cells",5,0.003980891719745223,0.9916866506794564,False,0.4381096661090851,numerical_window_rich_v3_s0
+val_comp,comp_test,nuc_dn+mito_up+fewer_cells,"give me smaller nuclei, brighter mitochondria and fewer cells",7,0.005573248407643312,0.8853940295093218,True,0.101143017411232,numerical_window_rich_v3_s0
+val_comp,comp_test,aedge_dn+gpatch_up+fewer_cells,"give me actin pulled away from the cell edge, patchy Golgi staining and fewer cells",16,0.012738853503184714,0.9589717741935484,True,0.5520079731941223,numerical_window_rich_v3_s0
+val_comp,refuse,mito_dn+actin_dn+aedge_dn,"give me dimmer mitochondria, fainter actin and actin pulled away from the cell edge",0,0.0,,False,0.10844556987285614,numerical_window_rich_v3_s0
+val_comp,refuse,mito_dn+actin_up+aedge_dn,"give me dimmer mitochondria, brighter actin and actin pulled away from the cell edge",0,0.0,,False,0.050776056945323944,numerical_window_rich_v3_s0
+val_comp,refuse,nuc_dn+dna_up+mito_dn,"give me smaller nuclei, brighter DNA staining and dimmer mitochondria",0,0.0,,False,0.046491287648677826,numerical_window_rich_v3_s0
+val_comp,refuse,nuc_up+actin_up+gpatch_up,"give me bigger nuclei, brighter actin and patchy Golgi staining",0,0.0,,False,0.06860368698835373,numerical_window_rich_v3_s0
+val_comp,refuse,elong_up+nuc_up+gpatch_up,"give me elongated cells, bigger nuclei and patchy Golgi staining",0,0.0,,False,0.11814428120851517,numerical_window_rich_v3_s0
+val_comp,refuse,nuc_up+dna_up+gpatch_up,"give me bigger nuclei, brighter DNA staining and patchy Golgi staining",0,0.0,,False,0.06301607191562653,numerical_window_rich_v3_s0
+val_comp,refuse,elong_up+mito_up+actin_up,"give me elongated cells, brighter mitochondria and brighter actin",0,0.0,,False,0.05359836295247078,numerical_window_rich_v3_s0
+val_comp,refuse,mito_up+aedge_dn+gpatch_dn,"give me brighter mitochondria, actin pulled away from the cell edge and smoother Golgi staining",0,0.0,,False,0.05204294994473457,numerical_window_rich_v3_s0
+val_comp,refuse,dna_dn+actin_up+aedge_dn,"give me dimmer DNA staining, brighter actin and actin pulled away from the cell edge",0,0.0,,False,0.06495091319084167,numerical_window_rich_v3_s0
+val_comp,refuse,nuc_dn+mito_dn+actin_up,"give me smaller nuclei, dimmer mitochondria and brighter actin",0,0.0,,False,0.02842937968671322,numerical_window_rich_v3_s0
+val_comp,refuse,elong_up+dna_dn+gpatch_up,"give me elongated cells, dimmer DNA staining and patchy Golgi staining",0,0.0,,False,0.11327718198299408,numerical_window_rich_v3_s0
+val_comp,refuse,dna_dn+mito_dn+actin_up,"give me dimmer DNA staining, dimmer mitochondria and brighter actin",0,0.0,,False,0.032702650874853134,numerical_window_rich_v3_s0
+val_comp,refuse,nuc_up+dna_dn+actin_dn,"give me bigger nuclei, dimmer DNA staining and fainter actin",0,0.0,,False,0.053876716643571854,numerical_window_rich_v3_s0
+val_comp,refuse,dna_dn+actin_up+gpatch_up,"give me dimmer DNA staining, brighter actin and patchy Golgi staining",0,0.0,,False,0.05484822392463684,numerical_window_rich_v3_s0
+val_comp,refuse,elong_up+mito_up+gpatch_dn,"give me elongated cells, brighter mitochondria and smoother Golgi staining",0,0.0,,False,0.05778338760137558,numerical_window_rich_v3_s0
+val_comp,refuse,nuc_dn+mito_dn+gpatch_dn,"give me smaller nuclei, dimmer mitochondria and smoother Golgi staining",0,0.0,,False,0.03818146884441376,numerical_window_rich_v3_s0
+val_comp,refuse,elong_up+nuc_up+dna_up,"give me elongated cells, bigger nuclei and brighter DNA staining",0,0.0,,False,0.06647634506225586,numerical_window_rich_v3_s0
+val_comp,refuse,dna_dn+mito_up+aedge_dn,"give me dimmer DNA staining, brighter mitochondria and actin pulled away from the cell edge",0,0.0,,False,0.06921838223934174,numerical_window_rich_v3_s0
+val_comp,refuse,mito_up+actin_dn+gpatch_dn,"give me brighter mitochondria, fainter actin and smoother Golgi staining",0,0.0,,False,0.04258662462234497,numerical_window_rich_v3_s0
+val_comp,refuse,nuc_dn+aedge_dn+gpatch_dn,"give me smaller nuclei, actin pulled away from the cell edge and smoother Golgi staining",0,0.0,,False,0.13377666473388672,numerical_window_rich_v3_s0
+unseen_comp,train,fewer_cells,kill most of the cells,94,0.03521918321468715,0.8412290848998141,True,0.8082368969917297,numerical_window_rich_v3_s0
+unseen_comp,train,fewer_cells,reduce the number of cells in the well,94,0.03521918321468715,0.8402664738690353,True,0.7582792043685913,numerical_window_rich_v3_s0
+unseen_comp,train,fewer_cells,make the cell population shrink,94,0.03521918321468715,0.8423115058872134,True,0.6824645400047302,numerical_window_rich_v3_s0
+unseen_comp,para_test,fewer_cells,leave far fewer cells alive,94,0.03521918321468715,0.8439971080355299,True,0.8989815711975098,numerical_window_rich_v3_s0
+unseen_comp,para_test,fewer_cells,thin out the culture by killing cells,94,0.03521918321468715,0.8417289816153688,True,0.7713621258735657,numerical_window_rich_v3_s0
+unseen_comp,train,elong_up,make the cells elongated,19,0.007116104868913857,0.8629315650499314,False,0.3120698034763336,numerical_window_rich_v3_s0
+unseen_comp,train,elong_up,stretch the cells into long shapes,19,0.007116104868913857,0.8593182314518851,False,0.3125443756580353,numerical_window_rich_v3_s0
+unseen_comp,train,elong_up,make the cells more spindle-like,19,0.007116104868913857,0.8701979392086401,False,0.338012158870697,numerical_window_rich_v3_s0
+unseen_comp,para_test,elong_up,turn the cells long and thin,19,0.007116104868913857,0.8821298814747165,False,0.4134828746318817,numerical_window_rich_v3_s0
+unseen_comp,para_test,elong_up,give the cells an elongated outline,19,0.007116104868913857,0.8822887093251802,False,0.3669984042644501,numerical_window_rich_v3_s0
+unseen_comp,train,nuc_up,make the nuclei bigger,18,0.006741573033707865,0.42660675381263613,False,0.09554842859506607,numerical_window_rich_v3_s0
+unseen_comp,train,nuc_up,enlarge the nuclei,18,0.006741573033707865,0.4358450645215351,False,0.09104176610708237,numerical_window_rich_v3_s0
+unseen_comp,train,nuc_up,swell the cell nuclei,18,0.006741573033707865,0.5084527400703871,False,0.1757165640592575,numerical_window_rich_v3_s0
+unseen_comp,para_test,nuc_up,increase nuclear size,18,0.006741573033707865,0.402327383945031,False,0.1202881708741188,numerical_window_rich_v3_s0
+unseen_comp,para_test,nuc_up,grow larger nuclei,18,0.006741573033707865,0.42509845818669345,False,0.10714089125394821,numerical_window_rich_v3_s0
+unseen_comp,train,nuc_dn,make the nuclei smaller,10,0.003745318352059925,0.960451127819549,False,0.25102511048316956,numerical_window_rich_v3_s0
+unseen_comp,train,nuc_dn,shrink the nuclei,10,0.003745318352059925,0.9552631578947368,False,0.18977339565753937,numerical_window_rich_v3_s0
+unseen_comp,train,nuc_dn,reduce nuclear size,10,0.003745318352059925,0.9554511278195489,False,0.19118279218673706,numerical_window_rich_v3_s0
+unseen_comp,para_test,nuc_dn,make the nuclei compact and small,10,0.003745318352059925,0.9596616541353383,False,0.27847549319267273,numerical_window_rich_v3_s0
+unseen_comp,para_test,nuc_dn,decrease the size of the nucleus,10,0.003745318352059925,0.9592857142857142,False,0.25846102833747864,numerical_window_rich_v3_s0
+unseen_comp,train,dna_up,make the DNA stain brighter,20,0.00749063670411985,0.6315849056603773,False,0.08225154131650925,numerical_window_rich_v3_s0
+unseen_comp,train,dna_up,increase the DNA staining intensity,20,0.00749063670411985,0.7010754716981134,False,0.11674028635025024,numerical_window_rich_v3_s0
+unseen_comp,train,dna_up,make the nuclei stain more strongly for DNA,20,0.00749063670411985,0.7516792452830189,False,0.16055288910865784,numerical_window_rich_v3_s0
+unseen_comp,para_test,dna_up,condense the DNA so nuclei glow brighter,20,0.00749063670411985,0.751754716981132,False,0.10177048295736313,numerical_window_rich_v3_s0
+unseen_comp,para_test,dna_up,raise the Hoechst signal in the nuclei,20,0.00749063670411985,0.7465283018867924,False,0.17990772426128387,numerical_window_rich_v3_s0
+unseen_comp,train,dna_dn,make the DNA stain dimmer,5,0.0018726591760299626,0.6977861163227017,False,0.11863651871681213,numerical_window_rich_v3_s0
+unseen_comp,train,dna_dn,decrease DNA staining,5,0.0018726591760299626,0.8691932457786116,False,0.2103947252035141,numerical_window_rich_v3_s0
+unseen_comp,train,dna_dn,make the nuclei stain faintly for DNA,5,0.0018726591760299626,0.7709568480300188,False,0.16950345039367676,numerical_window_rich_v3_s0
+unseen_comp,para_test,dna_dn,weaken the Hoechst signal,5,0.0018726591760299626,0.8744465290806755,False,0.24154631793498993,numerical_window_rich_v3_s0
+unseen_comp,para_test,dna_dn,lower the DNA intensity in nuclei,5,0.0018726591760299626,0.8688930581613508,False,0.21323470771312714,numerical_window_rich_v3_s0
+unseen_comp,train,mito_up,make the mitochondria brighter,21,0.007865168539325843,0.650290316201981,False,0.06674115359783173,numerical_window_rich_v3_s0
+unseen_comp,train,mito_up,increase the mitochondrial signal,21,0.007865168539325843,0.7063941469377484,False,0.10497748851776123,numerical_window_rich_v3_s0
+unseen_comp,train,mito_up,boost MitoTracker staining,21,0.007865168539325843,0.6893706519980586,False,0.1387128382921219,numerical_window_rich_v3_s0
+unseen_comp,para_test,mito_up,make the mitochondria glow more,21,0.007865168539325843,0.7071491488252529,False,0.07020074129104614,numerical_window_rich_v3_s0
+unseen_comp,para_test,mito_up,raise mitochondrial staining intensity,21,0.007865168539325843,0.6902874400043143,False,0.11783935129642487,numerical_window_rich_v3_s0
+unseen_comp,train,mito_dn,make the mitochondria dimmer,1,0.0003745318352059925,0.9647808167853129,False,0.12957698106765747,numerical_window_rich_v3_s0
+unseen_comp,train,mito_dn,reduce the mitochondrial signal,1,0.0003745318352059925,0.9423004870738104,False,0.21350325644016266,numerical_window_rich_v3_s0
+unseen_comp,train,mito_dn,weaken MitoTracker staining,1,0.0003745318352059925,0.9494192581491195,False,0.1708395928144455,numerical_window_rich_v3_s0
+unseen_comp,para_test,mito_dn,make the mitochondria fade,1,0.0003745318352059925,0.9385537654552266,False,0.17416109144687653,numerical_window_rich_v3_s0
+unseen_comp,para_test,mito_dn,lower mitochondrial staining intensity,1,0.0003745318352059925,0.9385537654552267,False,0.23250712454319,numerical_window_rich_v3_s0
+unseen_comp,train,actin_up,make the actin brighter,3,0.0011235955056179776,0.9278840144981878,False,0.08466622978448868,numerical_window_rich_v3_s0
+unseen_comp,train,actin_up,increase actin staining,3,0.0011235955056179776,0.799525059367579,False,0.17148904502391815,numerical_window_rich_v3_s0
+unseen_comp,train,actin_up,strengthen the phalloidin signal,3,0.0011235955056179776,0.8406449193850769,False,0.14412426948547363,numerical_window_rich_v3_s0
+unseen_comp,para_test,actin_up,make the actin cytoskeleton more intense,3,0.0011235955056179776,0.8880139982502187,False,0.14106345176696777,numerical_window_rich_v3_s0
+unseen_comp,para_test,actin_up,raise the amount of stained actin,3,0.0011235955056179776,0.7477815273090863,False,0.18066038191318512,numerical_window_rich_v3_s0
+unseen_comp,train,actin_dn,make the actin fainter,10,0.003745318352059925,0.948796992481203,False,0.27586641907691956,numerical_window_rich_v3_s0
+unseen_comp,train,actin_dn,reduce actin staining,10,0.003745318352059925,0.9401503759398496,False,0.21751315891742706,numerical_window_rich_v3_s0
+unseen_comp,train,actin_dn,weaken the phalloidin signal,10,0.003745318352059925,0.9420300751879699,False,0.24164411425590515,numerical_window_rich_v3_s0
+unseen_comp,para_test,actin_dn,make the actin cytoskeleton dimmer,10,0.003745318352059925,0.9385714285714286,False,0.16923178732395172,numerical_window_rich_v3_s0
+unseen_comp,para_test,actin_dn,lower the actin signal in the cells,10,0.003745318352059925,0.9181203007518797,False,0.37216684222221375,numerical_window_rich_v3_s0
+unseen_comp,rare_test,aedge_up,push the actin out to the cell edge,0,0.0,,False,0.3431965410709381,numerical_window_rich_v3_s0
+unseen_comp,rare_test,aedge_up,concentrate actin at the cell periphery,0,0.0,,False,0.40231943130493164,numerical_window_rich_v3_s0
+unseen_comp,rare_test,aedge_up,move the actin to the rim of the cell,0,0.0,,False,0.2879003882408142,numerical_window_rich_v3_s0
+unseen_comp,rare_test,aedge_up,redistribute actin toward the cell border,0,0.0,,False,0.3420795798301697,numerical_window_rich_v3_s0
+unseen_comp,rare_test,aedge_up,make actin accumulate at the cell margin,0,0.0,,False,0.39761364459991455,numerical_window_rich_v3_s0
+unseen_comp,train,aedge_dn,pull the actin away from the cell edge,37,0.013857677902621723,0.7992116689420146,False,0.34537234902381897,numerical_window_rich_v3_s0
+unseen_comp,train,aedge_dn,move actin toward the cell centre,37,0.013857677902621723,0.7980106958458648,False,0.35395872592926025,numerical_window_rich_v3_s0
+unseen_comp,train,aedge_dn,draw the actin inward from the periphery,37,0.013857677902621723,0.7985136674844233,False,0.33497950434684753,numerical_window_rich_v3_s0
+unseen_comp,para_test,aedge_dn,deplete actin at the cell border,37,0.013857677902621723,0.7857854056107,False,0.3929934799671173,numerical_window_rich_v3_s0
+unseen_comp,para_test,aedge_dn,shift actin from the rim into the interior,37,0.013857677902621723,0.8051241518769053,False,0.3103283941745758,numerical_window_rich_v3_s0
+unseen_comp,train,gpatch_up,make the Golgi and membrane staining patchy,41,0.015355805243445693,0.6673315458905824,False,0.25357481837272644,numerical_window_rich_v3_s0
+unseen_comp,train,gpatch_up,make the WGA signal uneven and blotchy,41,0.015355805243445693,0.6757368562654816,False,0.19096367061138153,numerical_window_rich_v3_s0
+unseen_comp,train,gpatch_up,fragment the Golgi into patches,41,0.015355805243445693,0.6497972891482433,False,0.26235154271125793,numerical_window_rich_v3_s0
+unseen_comp,para_test,gpatch_up,make the membrane stain look spotty,41,0.015355805243445693,0.677471727170676,False,0.2263118028640747,numerical_window_rich_v3_s0
+unseen_comp,para_test,gpatch_up,scatter the Golgi signal into clumps,41,0.015355805243445693,0.652283628199538,False,0.14419680833816528,numerical_window_rich_v3_s0
+unseen_comp,train,gpatch_dn,make the Golgi and membrane staining smoother,1,0.0003745318352059925,0.9524166354439865,False,0.16421641409397125,numerical_window_rich_v3_s0
+unseen_comp,train,gpatch_dn,make the WGA signal more even,1,0.0003745318352059925,0.9516672911202697,False,0.1417822688817978,numerical_window_rich_v3_s0
+unseen_comp,train,gpatch_dn,reduce the patchiness of the Golgi stain,1,0.0003745318352059925,0.9359310603222181,False,0.1951921135187149,numerical_window_rich_v3_s0
+unseen_comp,para_test,gpatch_dn,make the membrane stain look uniform,1,0.0003745318352059925,0.959910078681154,False,0.20076380670070648,numerical_window_rich_v3_s0
+unseen_comp,para_test,gpatch_dn,smooth out the Golgi signal,1,0.0003745318352059925,0.9681528662420382,False,0.11697116494178772,numerical_window_rich_v3_s0
+unseen_comp,refuse,gpatch_dn+gmean_flat,make the Golgi staining smoother while keeping its brightness normal,0,0.0,,False,0.1309126913547516,numerical_window_rich_v3_s0
+unseen_comp,refuse,gpatch_dn+gmean_flat,even out the Golgi signal without changing how bright it is,0,0.0,,False,0.1582735776901245,numerical_window_rich_v3_s0
+unseen_comp,refuse,nuc_up+mito_up,give me bigger nuclei and brighter mitochondria,0,0.0,,False,0.07407506555318832,numerical_window_rich_v3_s0
+unseen_comp,refuse,nuc_up+mito_dn,give me bigger nuclei and dimmer mitochondria,0,0.0,,False,0.09584914892911911,numerical_window_rich_v3_s0
+unseen_comp,refuse,nuc_up+actin_up,give me bigger nuclei and brighter actin,0,0.0,,False,0.07398195564746857,numerical_window_rich_v3_s0
+unseen_comp,refuse,nuc_up+gpatch_up,give me bigger nuclei and patchy Golgi staining,0,0.0,,False,0.16004428267478943,numerical_window_rich_v3_s0
+unseen_comp,refuse,nuc_up+gpatch_dn,give me bigger nuclei and smoother Golgi staining,0,0.0,,False,0.0841897577047348,numerical_window_rich_v3_s0
+unseen_comp,refuse,dna_up+mito_dn,give me brighter DNA staining and dimmer mitochondria,0,0.0,,False,0.06901565939188004,numerical_window_rich_v3_s0
+unseen_comp,refuse,dna_up+gpatch_dn,give me brighter DNA staining and smoother Golgi staining,0,0.0,,False,0.05648474022746086,numerical_window_rich_v3_s0
+unseen_comp,refuse,dna_dn+mito_up,give me dimmer DNA staining and brighter mitochondria,0,0.0,,False,0.06974248588085175,numerical_window_rich_v3_s0
+unseen_comp,refuse,dna_dn+actin_up,give me dimmer DNA staining and brighter actin,0,0.0,,False,0.05874480679631233,numerical_window_rich_v3_s0
+unseen_comp,refuse,dna_dn+aedge_dn,give me dimmer DNA staining and actin pulled away from the cell edge,0,0.0,,False,0.16495175659656525,numerical_window_rich_v3_s0
+unseen_comp,refuse,dna_dn+gpatch_up,give me dimmer DNA staining and patchy Golgi staining,0,0.0,,False,0.1469990313053131,numerical_window_rich_v3_s0
+unseen_comp,refuse,dna_dn+gpatch_dn,give me dimmer DNA staining and smoother Golgi staining,0,0.0,,False,0.05851825699210167,numerical_window_rich_v3_s0
+unseen_comp,refuse,mito_up+gpatch_dn,give me brighter mitochondria and smoother Golgi staining,0,0.0,,False,0.07180377095937729,numerical_window_rich_v3_s0
+unseen_comp,refuse,mito_dn+actin_up,give me dimmer mitochondria and brighter actin,0,0.0,,False,0.05437490716576576,numerical_window_rich_v3_s0
+unseen_comp,refuse,actin_up+gpatch_dn,give me brighter actin and smoother Golgi staining,0,0.0,,False,0.07134170085191727,numerical_window_rich_v3_s0
+unseen_comp,comp_test,mito_up+fewer_cells,give me brighter mitochondria and fewer cells,26,0.009741476208317721,0.8760295701271864,True,0.04978283494710922,numerical_window_rich_v3_s0
+unseen_comp,comp_test,dna_up+actin_dn,give me brighter DNA staining and fainter actin,1,0.0003745318352059925,0.9393031097789434,False,0.07208757847547531,numerical_window_rich_v3_s0
+unseen_comp,comp_test,dna_up+mito_up,give me brighter DNA staining and brighter mitochondria,4,0.00149812734082397,0.7383720930232558,False,0.0715181976556778,numerical_window_rich_v3_s0
+unseen_comp,comp_test,dna_up+!mito_up,produce brighter DNA staining while keeping the mitochondria normal,8,0.00299625468164794,0.7512678437265214,False,0.1286759376525879,numerical_window_rich_v3_s0
+unseen_comp,comp_test,nuc_up+fewer_cells,give me bigger nuclei and fewer cells,17,0.006369426751592357,0.8901384083044982,False,0.19138871133327484,numerical_window_rich_v3_s0
+unseen_comp,comp_test,aedge_dn+!gpatch_up,produce actin pulled away from the cell edge without making the Golgi patchy,13,0.0048689138576779025,0.7962421470136939,False,0.26787644624710083,numerical_window_rich_v3_s0
+unseen_comp,comp_test,actin_up+!dna_up,produce brighter actin without making the DNA brighter,2,0.000749063670411985,0.8652548725637181,False,0.13177381455898285,numerical_window_rich_v3_s0
+unseen_comp,comp_test,mito_up+gpatch_up,give me brighter mitochondria and patchy Golgi staining,5,0.0018726591760299626,0.7010131332082552,False,0.10897993296384811,numerical_window_rich_v3_s0
+unseen_comp,comp_test,aedge_dn+gpatch_up,give me actin pulled away from the cell edge and patchy Golgi staining,17,0.006367041198501872,0.8834393915877697,False,0.2827604115009308,numerical_window_rich_v3_s0
+unseen_comp,comp_test,aedge_dn+!elong_up,produce actin pulled away from the cell edge without stretching the cells,32,0.01198501872659176,0.7644640826383624,False,0.33038660883903503,numerical_window_rich_v3_s0
+unseen_comp,comp_test,fewer_cells+!elong_up,produce fewer cells without stretching the cells,82,0.030723117272386663,0.8305481440975986,False,0.34209778904914856,numerical_window_rich_v3_s0
+unseen_comp,comp_test,nuc_dn+gpatch_up,give me smaller nuclei and patchy Golgi staining,4,0.00149812734082397,0.9703675918979745,False,0.18625636398792267,numerical_window_rich_v3_s0
+unseen_comp,comp_test,mito_up+!dna_up,produce brighter mitochondria without making the DNA brighter,15,0.0056179775280898875,0.6439171374764595,False,0.09771078824996948,numerical_window_rich_v3_s0
+unseen_comp,comp_test,dna_up+fewer_cells,give me brighter DNA staining and fewer cells,35,0.013113525665043087,0.8905629677839245,True,0.09887118637561798,numerical_window_rich_v3_s0
+unseen_comp,comp_test,nuc_dn+!dna_up,produce smaller nuclei without making the DNA brighter,2,0.000749063670411985,0.9949400299850074,False,0.22272565960884094,numerical_window_rich_v3_s0
+unseen_comp,comp_test,nuc_dn+aedge_dn,give me smaller nuclei and actin pulled away from the cell edge,7,0.0026217228464419477,0.9601416233034709,False,0.18946480751037598,numerical_window_rich_v3_s0
+unseen_comp,comp_test,nuc_dn+!elong_up,produce smaller nuclei without stretching the cells,8,0.00299625468164794,0.9553437265214125,False,0.25607433915138245,numerical_window_rich_v3_s0
+unseen_comp,comp_test,gpatch_dn+!nuc_up,produce smoother Golgi staining without enlarging the nuclei,1,0.0003745318352059925,0.9400524541026601,False,0.21109774708747864,numerical_window_rich_v3_s0
+unseen_comp,comp_test,nuc_up+!mito_up,produce bigger nuclei while keeping the mitochondria normal,15,0.0056179775280898875,0.45618330194601386,False,0.14841097593307495,numerical_window_rich_v3_s0
+unseen_comp,comp_test,elong_up+!gpatch_up,produce elongated cells without making the Golgi patchy,16,0.00599250936329588,0.7874434815373021,False,0.20489026606082916,numerical_window_rich_v3_s0
+unseen_comp,comp_test,elong_up+fewer_cells,give me elongated cells and fewer cells,9,0.0033720494567253652,0.9595655806182123,False,0.19282270967960358,numerical_window_rich_v3_s0
+unseen_comp,comp_test,mito_dn+!gpatch_up,produce dimmer mitochondria without making the Golgi patchy,1,0.0003745318352059925,0.9655301611090297,False,0.09610937535762787,numerical_window_rich_v3_s0
+unseen_comp,comp_test,actin_dn+aedge_dn,give me fainter actin and actin pulled away from the cell edge,3,0.0011235955056179776,0.9577552805899262,False,0.19430169463157654,numerical_window_rich_v3_s0
+unseen_comp,comp_test,fewer_cells+!gpatch_up,produce fewer cells without making the Golgi patchy,54,0.020232296740352193,0.8151228666525033,False,0.3670070469379425,numerical_window_rich_v3_s0
+unseen_comp,comp_test,actin_up+gpatch_up,give me brighter actin and patchy Golgi staining,2,0.000749063670411985,0.5650299850074962,False,0.12167637795209885,numerical_window_rich_v3_s0
+unseen_comp,comp_test,mito_dn+!nuc_up,produce dimmer mitochondria without enlarging the nuclei,1,0.0003745318352059925,0.9580367178718622,False,0.16607637703418732,numerical_window_rich_v3_s0
+unseen_comp,comp_test,gpatch_up+!nuc_up,produce patchy Golgi staining without enlarging the nuclei,35,0.013108614232209739,0.6890105719707238,False,0.25424957275390625,numerical_window_rich_v3_s0
+unseen_comp,comp_test,actin_dn+!gpatch_up,produce fainter actin without making the Golgi patchy,9,0.0033707865168539327,0.9041713641488163,False,0.154046893119812,numerical_window_rich_v3_s0
+unseen_comp,train,fewer_cells+!nuc_up,produce fewer cells without enlarging the nuclei,75,0.028100412139378046,0.8314597789771266,True,0.5835802555084229,numerical_window_rich_v3_s0
+unseen_comp,train,fewer_cells+!nuc_up,"I need fewer cells, without enlarging the nuclei",75,0.028100412139378046,0.8322564893343614,True,0.6157487630844116,numerical_window_rich_v3_s0
+unseen_comp,train,dna_up+!nuc_up,produce brighter DNA staining without enlarging the nuclei,19,0.007116104868913857,0.708114117810558,False,0.12646973133087158,numerical_window_rich_v3_s0
+unseen_comp,train,dna_up+!nuc_up,"I need brighter DNA staining, without enlarging the nuclei",19,0.007116104868913857,0.7332287716651114,False,0.11429277807474136,numerical_window_rich_v3_s0
+unseen_comp,train,mito_up+!gpatch_up,produce brighter mitochondria without making the Golgi patchy,11,0.004119850187265918,0.582652398372594,False,0.06503718346357346,numerical_window_rich_v3_s0
+unseen_comp,train,mito_up+!gpatch_up,"I need brighter mitochondria, without making the Golgi patchy",11,0.004119850187265918,0.5841567233067797,False,0.062135808169841766,numerical_window_rich_v3_s0
+unseen_comp,train,nuc_dn+fewer_cells,give me smaller nuclei and fewer cells,29,0.010865492693892843,0.8680381400208986,False,0.5008354783058167,numerical_window_rich_v3_s0
+unseen_comp,train,nuc_dn+fewer_cells,I want smaller nuclei together with fewer cells,29,0.010865492693892843,0.8720872518286312,False,0.4028474688529968,numerical_window_rich_v3_s0
+unseen_comp,train,dna_up+gpatch_up,give me brighter DNA staining and patchy Golgi staining,7,0.0026217228464419477,0.760688804248699,False,0.082954540848732,numerical_window_rich_v3_s0
+unseen_comp,train,dna_up+gpatch_up,I want brighter DNA staining together with patchy Golgi staining,7,0.0026217228464419477,0.7554852207499597,False,0.07696201652288437,numerical_window_rich_v3_s0
+unseen_comp,train,gpatch_dn+fewer_cells,give me smoother Golgi staining and fewer cells,3,0.0011240164855751218,0.6914228557139285,False,0.12695877254009247,numerical_window_rich_v3_s0
+unseen_comp,train,gpatch_dn+fewer_cells,I want smoother Golgi staining together with fewer cells,3,0.0011240164855751218,0.6964241060265066,False,0.11781832575798035,numerical_window_rich_v3_s0
+unseen_comp,train,elong_up+actin_dn,give me elongated cells and fainter actin,4,0.00149812734082397,0.9535821455363841,False,0.17145341634750366,numerical_window_rich_v3_s0
+unseen_comp,train,elong_up+actin_dn,I want elongated cells together with fainter actin,4,0.00149812734082397,0.9527381845461365,False,0.15889663994312286,numerical_window_rich_v3_s0
+unseen_comp,train,nuc_up+!dna_up,produce bigger nuclei without making the DNA brighter,15,0.0056179775280898875,0.46279974890144376,False,0.1446186602115631,numerical_window_rich_v3_s0
+unseen_comp,train,nuc_up+!dna_up,"I need bigger nuclei, without making the DNA brighter",15,0.0056179775280898875,0.4487131198995606,False,0.1392941027879715,numerical_window_rich_v3_s0
+unseen_comp,train,aedge_dn+!mito_up,produce actin pulled away from the cell edge while keeping the mitochondria normal,29,0.010861423220973783,0.7953622582877437,False,0.35916247963905334,numerical_window_rich_v3_s0
+unseen_comp,train,aedge_dn+!mito_up,"I need actin pulled away from the cell edge, while keeping the mitochondria normal",29,0.010861423220973783,0.794813876666362,False,0.3635220527648926,numerical_window_rich_v3_s0
+unseen_comp,train,dna_dn+fewer_cells,give me dimmer DNA staining and fewer cells,5,0.0018733608092918695,0.9325825825825826,False,0.1814628392457962,numerical_window_rich_v3_s0
+unseen_comp,train,dna_dn+fewer_cells,I want dimmer DNA staining together with fewer cells,5,0.0018733608092918695,0.9434684684684684,False,0.07660046219825745,numerical_window_rich_v3_s0
+unseen_comp,train,actin_dn+!dna_up,produce fainter actin without making the DNA brighter,8,0.00299625468164794,0.9431818181818182,False,0.28455010056495667,numerical_window_rich_v3_s0
+unseen_comp,train,actin_dn+!dna_up,"I need fainter actin, without making the DNA brighter",8,0.00299625468164794,0.9460931630353118,False,0.2981155812740326,numerical_window_rich_v3_s0
+unseen_comp,train,aedge_dn+fewer_cells,give me actin pulled away from the cell edge and fewer cells,65,0.024353690520794304,0.8832742526290913,True,0.770143985748291,numerical_window_rich_v3_s0
+unseen_comp,train,aedge_dn+fewer_cells,I want actin pulled away from the cell edge together with fewer cells,65,0.024353690520794304,0.8834160463192721,True,0.7770821452140808,numerical_window_rich_v3_s0
+unseen_comp,train,gpatch_dn+!dna_up,produce smoother Golgi staining without making the DNA brighter,1,0.0003745318352059925,0.9520419632821282,False,0.18439698219299316,numerical_window_rich_v3_s0
+unseen_comp,train,gpatch_dn+!dna_up,"I need smoother Golgi staining, without making the DNA brighter",1,0.0003745318352059925,0.9651554889471712,False,0.15609405934810638,numerical_window_rich_v3_s0
+unseen_comp,train,mito_up+aedge_dn,give me brighter mitochondria and actin pulled away from the cell edge,4,0.00149812734082397,0.7421230307576895,False,0.10726727545261383,numerical_window_rich_v3_s0
+unseen_comp,train,mito_up+aedge_dn,I want brighter mitochondria together with actin pulled away from the cell edge,4,0.00149812734082397,0.7329332333083272,False,0.07130484282970428,numerical_window_rich_v3_s0
+unseen_comp,train,dna_dn+!elong_up,produce dimmer DNA staining without stretching the cells,1,0.0003745318352059925,0.9404271262645186,False,0.14375735819339752,numerical_window_rich_v3_s0
+unseen_comp,train,dna_dn+!elong_up,"I need dimmer DNA staining, without stretching the cells",1,0.0003745318352059925,0.9325590108654926,False,0.15799914300441742,numerical_window_rich_v3_s0
+unseen_comp,train,elong_up+aedge_dn,give me elongated cells and actin pulled away from the cell edge,1,0.0003745318352059925,0.9452978643686775,False,0.17459885776042938,numerical_window_rich_v3_s0
+unseen_comp,train,elong_up+aedge_dn,I want elongated cells together with actin pulled away from the cell edge,1,0.0003745318352059925,0.9475458973398276,False,0.15598680078983307,numerical_window_rich_v3_s0
+unseen_comp,train,elong_up+dna_up,give me elongated cells and brighter DNA staining,1,0.0003745318352059925,0.9599100786811541,False,0.10136322677135468,numerical_window_rich_v3_s0
+unseen_comp,train,elong_up+dna_up,I want elongated cells together with brighter DNA staining,1,0.0003745318352059925,0.9565380292244287,False,0.10197661072015762,numerical_window_rich_v3_s0
+unseen_comp,train,actin_dn+!elong_up,produce fainter actin without stretching the cells,5,0.0018726591760299626,0.942063789868668,False,0.28486141562461853,numerical_window_rich_v3_s0
+unseen_comp,train,actin_dn+!elong_up,"I need fainter actin, without stretching the cells",5,0.0018726591760299626,0.943939962476548,False,0.31116342544555664,numerical_window_rich_v3_s0
+unseen_comp,train,actin_up+fewer_cells,give me brighter actin and fewer cells,15,0.005620082427875608,0.7951519718663652,False,0.2266983985900879,numerical_window_rich_v3_s0
+unseen_comp,train,actin_up+fewer_cells,I want brighter actin together with fewer cells,15,0.005620082427875608,0.7882692790756092,False,0.35073772072792053,numerical_window_rich_v3_s0
+unseen_comp,train,mito_dn+fewer_cells,give me dimmer mitochondria and fewer cells,8,0.0029973772948669914,0.9202367531003381,False,0.1751016527414322,numerical_window_rich_v3_s0
+unseen_comp,train,mito_dn+fewer_cells,I want dimmer mitochondria together with fewer cells,8,0.0029973772948669914,0.9265313791807591,False,0.08400601148605347,numerical_window_rich_v3_s0
+unseen_comp,train,dna_dn+!nuc_up,produce dimmer DNA staining without enlarging the nuclei,1,0.0003745318352059925,0.664293742974897,False,0.16870585083961487,numerical_window_rich_v3_s0
+unseen_comp,train,dna_dn+!nuc_up,"I need dimmer DNA staining, without enlarging the nuclei",1,0.0003745318352059925,0.6470588235294118,False,0.17429009079933167,numerical_window_rich_v3_s0
+unseen_comp,train,elong_up+nuc_dn,give me elongated cells and smaller nuclei,1,0.0003745318352059925,0.947920569501686,False,0.11846260726451874,numerical_window_rich_v3_s0
+unseen_comp,train,elong_up+nuc_dn,I want elongated cells together with smaller nuclei,1,0.0003745318352059925,0.9509179467965531,False,0.13539430499076843,numerical_window_rich_v3_s0
+unseen_comp,train,nuc_dn+dna_up,give me smaller nuclei and brighter DNA staining,5,0.0018726591760299626,0.9631519699812382,False,0.0733456164598465,numerical_window_rich_v3_s0
+unseen_comp,train,nuc_dn+dna_up,I want smaller nuclei together with brighter DNA staining,5,0.0018726591760299626,0.9619512195121952,False,0.07289537787437439,numerical_window_rich_v3_s0
+unseen_comp,train,dna_up+!gpatch_up,produce brighter DNA staining without making the Golgi patchy,7,0.0026217228464419477,0.5464835577490478,False,0.09200190752744675,numerical_window_rich_v3_s0
+unseen_comp,train,dna_up+!gpatch_up,"I need brighter DNA staining, without making the Golgi patchy",7,0.0026217228464419477,0.6457271605600559,False,0.09404061734676361,numerical_window_rich_v3_s0
+unseen_comp,train,actin_up+aedge_dn,give me brighter actin and actin pulled away from the cell edge,1,0.0003745318352059925,0.6702884975646309,False,0.1007264032959938,numerical_window_rich_v3_s0
+unseen_comp,train,actin_up+aedge_dn,I want brighter actin together with actin pulled away from the cell edge,1,0.0003745318352059925,0.6849007118771075,False,0.035403843969106674,numerical_window_rich_v3_s0
+unseen_comp,train,actin_dn+fewer_cells,give me fainter actin and fewer cells,29,0.010865492693892843,0.9074059561128527,True,0.5571222901344299,numerical_window_rich_v3_s0
+unseen_comp,train,actin_dn+fewer_cells,I want fainter actin together with fewer cells,29,0.010865492693892843,0.9059691745036573,True,0.5835589170455933,numerical_window_rich_v3_s0
+unseen_comp,train,mito_up+!nuc_up,produce brighter mitochondria without enlarging the nuclei,21,0.007865168539325843,0.7074906972981718,False,0.09207366406917572,numerical_window_rich_v3_s0
+unseen_comp,train,mito_up+!nuc_up,"I need brighter mitochondria, without enlarging the nuclei",21,0.007865168539325843,0.7132071401607075,False,0.08711856603622437,numerical_window_rich_v3_s0
+unseen_comp,train,nuc_up+!gpatch_up,produce bigger nuclei without making the Golgi patchy,13,0.0048689138576779025,0.4151153701398338,False,0.10332950949668884,numerical_window_rich_v3_s0
+unseen_comp,train,nuc_up+!gpatch_up,"I need bigger nuclei, without making the Golgi patchy",13,0.0048689138576779025,0.39757100257664807,False,0.09328349679708481,numerical_window_rich_v3_s0
+unseen_comp,train,gpatch_up+!dna_up,produce patchy Golgi staining without making the DNA brighter,27,0.010112359550561797,0.6357394094813693,False,0.2646699547767639,numerical_window_rich_v3_s0
+unseen_comp,train,gpatch_up+!dna_up,"I need patchy Golgi staining, without making the DNA brighter",27,0.010112359550561797,0.6537044043665308,False,0.23872584104537964,numerical_window_rich_v3_s0
+unseen_comp,train,dna_dn+!gpatch_up,produce dimmer DNA staining without making the Golgi patchy,3,0.0011235955056179776,0.6824146981627296,False,0.10510510951280594,numerical_window_rich_v3_s0
+unseen_comp,train,dna_dn+!gpatch_up,"I need dimmer DNA staining, without making the Golgi patchy",3,0.0011235955056179776,0.770153730783652,False,0.12047723680734634,numerical_window_rich_v3_s0
+unseen_comp,train,aedge_dn+!nuc_up,produce actin pulled away from the cell edge without enlarging the nuclei,35,0.013108614232209739,0.7868690702087286,False,0.3598036766052246,numerical_window_rich_v3_s0
+unseen_comp,train,aedge_dn+!nuc_up,"I need actin pulled away from the cell edge, without enlarging the nuclei",35,0.013108614232209739,0.7853835727839522,False,0.3436284363269806,numerical_window_rich_v3_s0
+unseen_comp,train,fewer_cells+!dna_up,produce fewer cells without making the DNA brighter,55,0.020606968902210566,0.7954615010085555,False,0.3898662328720093,numerical_window_rich_v3_s0
+unseen_comp,train,fewer_cells+!dna_up,"I need fewer cells, without making the DNA brighter",55,0.020606968902210566,0.7982854559365653,False,0.5280662178993225,numerical_window_rich_v3_s0
+unseen_comp,train,actin_up+!elong_up,produce brighter actin without stretching the cells,3,0.0011235955056179776,0.8826396700412449,False,0.12688159942626953,numerical_window_rich_v3_s0
+unseen_comp,train,actin_up+!elong_up,"I need brighter actin, without stretching the cells",3,0.0011235955056179776,0.8867641544806899,False,0.11934391409158707,numerical_window_rich_v3_s0
+unseen_comp,train,actin_dn+!mito_up,produce fainter actin while keeping the mitochondria normal,10,0.003745318352059925,0.947406015037594,False,0.23705722391605377,numerical_window_rich_v3_s0
+unseen_comp,train,actin_dn+!mito_up,"I need fainter actin, while keeping the mitochondria normal",10,0.003745318352059925,0.9493984962406015,False,0.2619636058807373,numerical_window_rich_v3_s0
+unseen_comp,train,nuc_dn+!mito_up,produce smaller nuclei while keeping the mitochondria normal,6,0.0022471910112359553,0.9674674674674674,False,0.23675775527954102,numerical_window_rich_v3_s0
+unseen_comp,train,nuc_dn+!mito_up,"I need smaller nuclei, while keeping the mitochondria normal",6,0.0022471910112359553,0.9685310310310311,False,0.2570662498474121,numerical_window_rich_v3_s0
+unseen_comp,train,actin_up+!mito_up,produce brighter actin while keeping the mitochondria normal,1,0.0003745318352059925,0.9756463094792056,False,0.1020025908946991,numerical_window_rich_v3_s0
+unseen_comp,train,actin_up+!mito_up,"I need brighter actin, while keeping the mitochondria normal",1,0.0003745318352059925,0.9760209816410642,False,0.09852878004312515,numerical_window_rich_v3_s0
+unseen_comp,train,dna_up+actin_up,give me brighter DNA staining and brighter actin,1,0.0003745318352059925,0.7201198950917947,False,0.06266089528799057,numerical_window_rich_v3_s0
+unseen_comp,train,dna_up+actin_up,I want brighter DNA staining together with brighter actin,1,0.0003745318352059925,0.7152491569876358,False,0.054919417947530746,numerical_window_rich_v3_s0
+unseen_comp,train,elong_up+!dna_up,produce elongated cells without making the DNA brighter,16,0.00599250936329588,0.8465052750565185,False,0.29563459753990173,numerical_window_rich_v3_s0
+unseen_comp,train,elong_up+!dna_up,"I need elongated cells, without making the DNA brighter",16,0.00599250936329588,0.8311275433308214,False,0.3029756247997284,numerical_window_rich_v3_s0
+unseen_comp,train,fewer_cells+!mito_up,produce fewer cells while keeping the mitochondria normal,68,0.025477707006369428,0.8251266481217632,False,0.5117913484573364,numerical_window_rich_v3_s0
+unseen_comp,train,fewer_cells+!mito_up,"I need fewer cells, while keeping the mitochondria normal",68,0.025477707006369428,0.8257711965985933,False,0.5194570422172546,numerical_window_rich_v3_s0
+unseen_comp,train,dna_up+!elong_up,produce brighter DNA staining without stretching the cells,16,0.00599250936329588,0.6642567822155236,False,0.10640273988246918,numerical_window_rich_v3_s0
+unseen_comp,train,dna_up+!elong_up,"I need brighter DNA staining, without stretching the cells",16,0.00599250936329588,0.6451818010550113,False,0.09200047701597214,numerical_window_rich_v3_s0
+unseen_comp,train,mito_dn+!elong_up,produce dimmer mitochondria without stretching the cells,0,0.0,,False,0.18206721544265747,numerical_window_rich_v3_s0
+unseen_comp,train,mito_dn+!elong_up,"I need dimmer mitochondria, without stretching the cells",0,0.0,,False,0.20537234842777252,numerical_window_rich_v3_s0
+unseen_comp,train,dna_up+aedge_dn,give me brighter DNA staining and actin pulled away from the cell edge,8,0.00299625468164794,0.8263993238166791,False,0.10539980977773666,numerical_window_rich_v3_s0
+unseen_comp,train,dna_up+aedge_dn,I want brighter DNA staining together with actin pulled away from the cell edge,8,0.00299625468164794,0.8220323065364388,False,0.0954165980219841,numerical_window_rich_v3_s0
+unseen_comp,train,nuc_up+!elong_up,produce bigger nuclei without stretching the cells,11,0.004119850187265918,0.46738350029060816,False,0.1333613097667694,numerical_window_rich_v3_s0
+unseen_comp,train,nuc_up+!elong_up,"I need bigger nuclei, without stretching the cells",11,0.004119850187265918,0.4703237717528804,False,0.12534213066101074,numerical_window_rich_v3_s0
+unseen_comp,train,gpatch_up+!mito_up,produce patchy Golgi staining while keeping the mitochondria normal,27,0.010112359550561797,0.70261066969353,False,0.20755483210086823,numerical_window_rich_v3_s0
+unseen_comp,train,gpatch_up+!mito_up,"I need patchy Golgi staining, while keeping the mitochondria normal",27,0.010112359550561797,0.7029189613374253,False,0.21539629995822906,numerical_window_rich_v3_s0
+unseen_comp,train,elong_up+!nuc_up,produce elongated cells without enlarging the nuclei,16,0.00599250936329588,0.8682413338357197,False,0.3317861258983612,numerical_window_rich_v3_s0
+unseen_comp,train,elong_up+!nuc_up,"I need elongated cells, without enlarging the nuclei",16,0.00599250936329588,0.8716324415975885,False,0.33469387888908386,numerical_window_rich_v3_s0
+unseen_comp,train,gpatch_up+!elong_up,produce patchy Golgi staining without stretching the cells,36,0.01348314606741573,0.6392158103433729,False,0.23872558772563934,numerical_window_rich_v3_s0
+unseen_comp,train,gpatch_up+!elong_up,"I need patchy Golgi staining, without stretching the cells",36,0.01348314606741573,0.6660339154644395,False,0.20875558257102966,numerical_window_rich_v3_s0
+unseen_comp,train,dna_dn+!mito_up,produce dimmer DNA staining while keeping the mitochondria normal,4,0.00149812734082397,0.7871342835708928,False,0.15296387672424316,numerical_window_rich_v3_s0
+unseen_comp,train,dna_dn+!mito_up,"I need dimmer DNA staining, while keeping the mitochondria normal",4,0.00149812734082397,0.8264253563390848,False,0.1651434749364853,numerical_window_rich_v3_s0
+unseen_comp,train,nuc_dn+actin_dn,give me smaller nuclei and fainter actin,2,0.000749063670411985,0.9657046476761619,False,0.0994972214102745,numerical_window_rich_v3_s0
+unseen_comp,train,nuc_dn+actin_dn,I want smaller nuclei together with fainter actin,2,0.000749063670411985,0.9677661169415291,False,0.1294838935136795,numerical_window_rich_v3_s0
+unseen_comp,train,actin_dn+!nuc_up,produce fainter actin without enlarging the nuclei,10,0.003745318352059925,0.9483834586466166,False,0.2496451437473297,numerical_window_rich_v3_s0
+unseen_comp,train,actin_dn+!nuc_up,"I need fainter actin, without enlarging the nuclei",10,0.003745318352059925,0.9474812030075187,False,0.25221094489097595,numerical_window_rich_v3_s0
+unseen_comp,train,aedge_dn+!dna_up,produce actin pulled away from the cell edge without making the DNA brighter,24,0.008988764044943821,0.8005794910556816,False,0.3058881163597107,numerical_window_rich_v3_s0
+unseen_comp,train,aedge_dn+!dna_up,"I need actin pulled away from the cell edge, without making the DNA brighter",24,0.008988764044943821,0.7904620181405896,False,0.28316518664360046,numerical_window_rich_v3_s0
+unseen_comp,train,actin_up+!nuc_up,produce brighter actin without enlarging the nuclei,3,0.0011235955056179776,0.8791401074865642,False,0.12267556041479111,numerical_window_rich_v3_s0
+unseen_comp,train,actin_up+!nuc_up,"I need brighter actin, without enlarging the nuclei",3,0.0011235955056179776,0.9010123734533183,False,0.11016378551721573,numerical_window_rich_v3_s0
+unseen_comp,train,mito_up+!elong_up,produce brighter mitochondria without stretching the cells,20,0.00749063670411985,0.6970566037735849,False,0.08377440273761749,numerical_window_rich_v3_s0
+unseen_comp,train,mito_up+!elong_up,"I need brighter mitochondria, without stretching the cells",20,0.00749063670411985,0.6979433962264151,False,0.07621395587921143,numerical_window_rich_v3_s0
+unseen_comp,train,gpatch_up+fewer_cells,give me patchy Golgi staining and fewer cells,38,0.01423754215061821,0.8601992438336434,True,0.6311495304107666,numerical_window_rich_v3_s0
+unseen_comp,train,gpatch_up+fewer_cells,I want patchy Golgi staining together with fewer cells,38,0.01423754215061821,0.8597091360099222,True,0.5373030304908752,numerical_window_rich_v3_s0
+unseen_comp,train,nuc_dn+!gpatch_up,produce smaller nuclei without making the Golgi patchy,5,0.0018726591760299626,0.9273545966228893,False,0.18344157934188843,numerical_window_rich_v3_s0
+unseen_comp,train,nuc_dn+!gpatch_up,"I need smaller nuclei, without making the Golgi patchy",5,0.0018726591760299626,0.9294559099437147,False,0.1958109736442566,numerical_window_rich_v3_s0
+unseen_comp,train,mito_dn+!dna_up,produce dimmer mitochondria without making the DNA brighter,1,0.0003745318352059925,0.9393031097789435,False,0.19851070642471313,numerical_window_rich_v3_s0
+unseen_comp,train,mito_dn+!dna_up,"I need dimmer mitochondria, without making the DNA brighter",1,0.0003745318352059925,0.9512926189584114,False,0.18278418481349945,numerical_window_rich_v3_s0
+unseen_comp,train,elong_up+!mito_up,produce elongated cells while keeping the mitochondria normal,17,0.006367041198501872,0.8595596549965633,False,0.2914506793022156,numerical_window_rich_v3_s0
+unseen_comp,train,elong_up+!mito_up,"I need elongated cells, while keeping the mitochondria normal",17,0.006367041198501872,0.8620429702223897,False,0.31936290860176086,numerical_window_rich_v3_s0
+unseen_comp,train,gpatch_dn+!mito_up,produce smoother Golgi staining while keeping the mitochondria normal,1,0.0003745318352059925,0.956912701386287,False,0.16584642231464386,numerical_window_rich_v3_s0
+unseen_comp,train,gpatch_dn+!mito_up,"I need smoother Golgi staining, while keeping the mitochondria normal",1,0.0003745318352059925,0.9681528662420382,False,0.15172620117664337,numerical_window_rich_v3_s0
+unseen_comp,comp_test,dna_up+mito_up+fewer_cells,"give me brighter DNA staining, brighter mitochondria and fewer cells",24,0.008992131884600974,0.8696597353497165,False,0.049060240387916565,numerical_window_rich_v3_s0
+unseen_comp,comp_test,actin_up+gpatch_up+fewer_cells,"give me brighter actin, patchy Golgi staining and fewer cells",14,0.005245410266017235,0.7964487489911218,False,0.11356222629547119,numerical_window_rich_v3_s0
+unseen_comp,comp_test,dna_dn+actin_dn+fewer_cells,"give me dimmer DNA staining, fainter actin and fewer cells",2,0.0007493443237167478,0.973753280839895,False,0.08701398223638535,numerical_window_rich_v3_s0
+unseen_comp,comp_test,nuc_dn+gpatch_up+fewer_cells,"give me smaller nuclei, patchy Golgi staining and fewer cells",21,0.007868115399025852,0.8490145302834123,False,0.43554264307022095,numerical_window_rich_v3_s0
+unseen_comp,comp_test,dna_dn+aedge_dn+fewer_cells,"give me dimmer DNA staining, actin pulled away from the cell edge and fewer cells",2,0.0007493443237167478,0.9733783277090363,False,0.11990629136562347,numerical_window_rich_v3_s0
+unseen_comp,comp_test,nuc_up+actin_dn+fewer_cells,"give me bigger nuclei, fainter actin and fewer cells",1,0.0003746721618583739,0.9831334332833583,False,0.09406957775354385,numerical_window_rich_v3_s0
+unseen_comp,comp_test,actin_dn+gpatch_dn+fewer_cells,"give me fainter actin, smoother Golgi staining and fewer cells",3,0.0011240164855751218,0.7293073268317078,False,0.15959389507770538,numerical_window_rich_v3_s0
+unseen_comp,comp_test,actin_dn+gpatch_up+fewer_cells,"give me fainter actin, patchy Golgi staining and fewer cells",7,0.0026227051330086175,0.9710743801652894,True,0.349563330411911,numerical_window_rich_v3_s0
+unseen_comp,comp_test,nuc_dn+mito_up+fewer_cells,"give me smaller nuclei, brighter mitochondria and fewer cells",20,0.007493443237167478,0.8482823707059267,False,0.05369121953845024,numerical_window_rich_v3_s0
+unseen_comp,comp_test,aedge_dn+gpatch_up+fewer_cells,"give me actin pulled away from the cell edge, patchy Golgi staining and fewer cells",36,0.013488197826901461,0.8699096932101109,True,0.4578857421875,numerical_window_rich_v3_s0
+unseen_comp,refuse,mito_dn+actin_dn+aedge_dn,"give me dimmer mitochondria, fainter actin and actin pulled away from the cell edge",0,0.0,,False,0.14007829129695892,numerical_window_rich_v3_s0
+unseen_comp,refuse,mito_dn+actin_up+aedge_dn,"give me dimmer mitochondria, brighter actin and actin pulled away from the cell edge",0,0.0,,False,0.08388479053974152,numerical_window_rich_v3_s0
+unseen_comp,refuse,nuc_dn+dna_up+mito_dn,"give me smaller nuclei, brighter DNA staining and dimmer mitochondria",0,0.0,,False,0.08366722613573074,numerical_window_rich_v3_s0
+unseen_comp,refuse,nuc_up+actin_up+gpatch_up,"give me bigger nuclei, brighter actin and patchy Golgi staining",0,0.0,,False,0.10870377719402313,numerical_window_rich_v3_s0
+unseen_comp,refuse,elong_up+nuc_up+gpatch_up,"give me elongated cells, bigger nuclei and patchy Golgi staining",0,0.0,,False,0.19146275520324707,numerical_window_rich_v3_s0
+unseen_comp,refuse,nuc_up+dna_up+gpatch_up,"give me bigger nuclei, brighter DNA staining and patchy Golgi staining",0,0.0,,False,0.10489058494567871,numerical_window_rich_v3_s0
+unseen_comp,refuse,elong_up+mito_up+actin_up,"give me elongated cells, brighter mitochondria and brighter actin",0,0.0,,False,0.09265643358230591,numerical_window_rich_v3_s0
+unseen_comp,refuse,mito_up+aedge_dn+gpatch_dn,"give me brighter mitochondria, actin pulled away from the cell edge and smoother Golgi staining",0,0.0,,False,0.08606137335300446,numerical_window_rich_v3_s0
+unseen_comp,refuse,dna_dn+actin_up+aedge_dn,"give me dimmer DNA staining, brighter actin and actin pulled away from the cell edge",0,0.0,,False,0.11510585248470306,numerical_window_rich_v3_s0
+unseen_comp,refuse,nuc_dn+mito_dn+actin_up,"give me smaller nuclei, dimmer mitochondria and brighter actin",0,0.0,,False,0.04844463989138603,numerical_window_rich_v3_s0
+unseen_comp,refuse,elong_up+dna_dn+gpatch_up,"give me elongated cells, dimmer DNA staining and patchy Golgi staining",0,0.0,,False,0.17698872089385986,numerical_window_rich_v3_s0
+unseen_comp,refuse,dna_dn+mito_dn+actin_up,"give me dimmer DNA staining, dimmer mitochondria and brighter actin",0,0.0,,False,0.05894293263554573,numerical_window_rich_v3_s0
+unseen_comp,refuse,nuc_up+dna_dn+actin_dn,"give me bigger nuclei, dimmer DNA staining and fainter actin",0,0.0,,False,0.0951651856303215,numerical_window_rich_v3_s0
+unseen_comp,refuse,dna_dn+actin_up+gpatch_up,"give me dimmer DNA staining, brighter actin and patchy Golgi staining",0,0.0,,False,0.09797188639640808,numerical_window_rich_v3_s0
+unseen_comp,refuse,elong_up+mito_up+gpatch_dn,"give me elongated cells, brighter mitochondria and smoother Golgi staining",0,0.0,,False,0.10092181712388992,numerical_window_rich_v3_s0
+unseen_comp,refuse,nuc_dn+mito_dn+gpatch_dn,"give me smaller nuclei, dimmer mitochondria and smoother Golgi staining",0,0.0,,False,0.0669141635298729,numerical_window_rich_v3_s0
+unseen_comp,refuse,elong_up+nuc_up+dna_up,"give me elongated cells, bigger nuclei and brighter DNA staining",0,0.0,,False,0.11310101300477982,numerical_window_rich_v3_s0
+unseen_comp,refuse,dna_dn+mito_up+aedge_dn,"give me dimmer DNA staining, brighter mitochondria and actin pulled away from the cell edge",0,0.0,,False,0.11949007958173752,numerical_window_rich_v3_s0
+unseen_comp,refuse,mito_up+actin_dn+gpatch_dn,"give me brighter mitochondria, fainter actin and smoother Golgi staining",0,0.0,,False,0.07130095362663269,numerical_window_rich_v3_s0
+unseen_comp,refuse,nuc_dn+aedge_dn+gpatch_dn,"give me smaller nuclei, actin pulled away from the cell edge and smoother Golgi staining",0,0.0,,False,0.11228206753730774,numerical_window_rich_v3_s0

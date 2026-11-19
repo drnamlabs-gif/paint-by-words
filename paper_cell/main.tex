@@ -494,14 +494,48 @@ new batch and so tests batch transfer at the same time.
 
 \section*{STAR Methods}
 
-\subsection*{Key resources}
+\subsection*{Key resources table}
 
-RxRx3-core \citep{kraus2025rxrx3core}, obtained from the publisher and used under its
-end-user licence; it is not redistributed. LINCS L1000 level-5 signatures
-\citep{subramanian2017lincs}. MSigDB hallmark gene sets. Software: Python, PyTorch, RDKit
-\citep{rdkit}, scikit-learn, SciPy, CellProfiler-derived features as released with the
-archive, and the sentence encoder \texttt{nli-mpnet-base-v2}
-\citep{reimers2019sbert,song2020mpnet}.
+\noindent
+\begin{tabular}{@{}p{0.40\textwidth}p{0.24\textwidth}p{0.30\textwidth}@{}}
+\toprule
+\textbf{REAGENT or RESOURCE} & \textbf{SOURCE} & \textbf{IDENTIFIER} \\
+\midrule
+\multicolumn{3}{@{}l}{\textit{Deposited data}}\\
+RxRx3-core (image-based profiles and images, HUVEC, 1,671 compounds)
+  & Recursion Pharmaceuticals; \citet{kraus2025rxrx3core}
+  & \url{https://huggingface.co/datasets/recursionpharma/rxrx3-core} \\
+OpenPhenom-S/16 embeddings of RxRx3-core
+  & Recursion Pharmaceuticals
+  & Distributed with RxRx3-core \\
+LINCS L1000 level-5 signatures (GSE92742, GSE70138)
+  & \citet{subramanian2017lincs}
+  & \url{https://clue.io/data} \\
+MSigDB hallmark gene sets (v2023.1)
+  & \citet{liberzon2015hallmark}
+  & \url{https://www.gsea-msigdb.org/gsea/msigdb} \\
+\midrule
+\multicolumn{3}{@{}l}{\textit{Software and algorithms}}\\
+\texttt{paint-by-words} (all analysis code for this study)
+  & This paper
+  & \url{https://github.com/drnamlabs-gif/paint-by-words} \\
+Python 3.11 & Python Software Foundation & RRID:SCR\_008394 \\
+PyTorch 2.x & \citet{paszke2019pytorch} & RRID:SCR\_018536 \\
+RDKit (2D descriptors, Morgan fingerprints, Bemis--Murcko scaffolds)
+  & \citet{rdkit} & RRID:SCR\_014274 \\
+scikit-learn & \citet{pedregosa2011sklearn} & RRID:SCR\_002577 \\
+SciPy & \citet{virtanen2020scipy} & RRID:SCR\_008058 \\
+sentence-transformers, \texttt{nli-mpnet-base-v2}
+  & \citet{reimers2019sbert,song2020mpnet}
+  & \url{https://huggingface.co/sentence-transformers/nli-mpnet-base-v2} \\
+CellProfiler (features as released with the archive)
+  & \citet{carpenter2006cellprofiler} & RRID:SCR\_007358 \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.6em}
+\noindent No new reagents, cell lines, organisms or experimental samples were generated in
+this study; all data are previously published and are not redistributed here.
 
 \subsection*{Method details}
 

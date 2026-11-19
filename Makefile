@@ -5,9 +5,9 @@
 PY ?= python
 SEEDS ?= 0 1 2 3 4
 
-.PHONY: all counts data train eval figs gif baselines critic test app clean
+.PHONY: all counts data train eval figs gif screening baselines critic test app clean
 
-all: data train eval figs gif
+all: data train eval figs gif screening
 
 ## counts nuclei in every well; needs the image shards, skipped if absent
 counts:
@@ -32,6 +32,10 @@ figs:
 ## the two animations in README.md; both need the image shards and trained checkpoints
 gif:
 	$(PY) -m pbw.demo
+
+## what the ranking saves, counted in wells rather than in AUC
+screening:
+	$(PY) -m pbw.screening
 
 ## the finding: the same work under the old label definition, where the model
 ## looked much better and its toxicity-only baseline looked almost as good

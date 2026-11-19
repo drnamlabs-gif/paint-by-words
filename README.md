@@ -147,6 +147,52 @@ A monotone output cannot express a dose window and will prefer the toxic compoun
 
 ---
 
+## What it saves, counted in wells
+
+AUC says how well a ranking is ordered. It does not say what a screen costs. The
+question a screening group asks is: **given a budget of k wells, how often do I find
+something that does what I asked for?**
+
+![goals solved within a screening budget](figs/06_screening_budget.png)
+
+64 held-out goals, on compounds whose scaffold the model never saw. **38 of those 64
+are conjunctions whose concept was never trained** — single behaviours are trained,
+their combinations are asked for in English and answered without a screen of their
+own. That is the part that compounds: a handful of trained behaviours covers a much
+larger space of goals.
+
+| budget | model | toxicity-only | dose-only | random |
+|---|---|---|---|---|
+| 8 wells (one plate row) | **42%** | 20% | 12% | 5% |
+| 24 | 59% | 55% | 16% | 13% |
+| 48 | 67% | 64% | **73%** | 23% |
+| 96 (a plate) | 80% | 80% | 75% | 36% |
+| 384 | **98%** | 81% | 86% | 69% |
+
+Median wells opened before the first real hit: model 12, toxicity-only 18,
+dose-only 38, random 267.
+
+**Read that honestly.** Going from 267 wells to 12 is not what language conditioning
+bought: a baseline that never reads the question gets to 18. And at a budget of 48
+wells, ranking by dose alone beats the model outright. Goal-specific skill shows up
+in exactly two places:
+
+- **At a very small budget.** 8 wells: 42% against 20%, a paired difference of
+  **+22%, 95% CI [+11%, +33%]**, with 15 goals solved only by the model against 1
+  solved only by the baseline, McNemar **p = 0.0005**. Small budgets are the normal
+  case, since a hypothesis rarely gets more than a few wells.
+- **At the ceiling.** 384 wells: 98% against 81%. About one goal in five is not
+  reachable along the toxicity route at any budget.
+
+Between 16 and 96 wells the model and the baselines are not separable (at 16 wells,
++11%, p = 0.12). That null is part of the result.
+
+```
+make screening
+```
+
+---
+
 ## A vision model as a second measuring instrument
 
 2,000 (compound, dose) groups rendered as treated-beside-reference panels, scored

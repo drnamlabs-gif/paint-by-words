@@ -160,5 +160,5 @@ diagnostic or therapeutic decisions, and not a source of biological claims.
 
 ## Credit
 
-Postdoctoral work at the University of Vermont in Prof. Josh Bongard's lab, funded
-by the Army Research Office. Dr. Nam H. Le, drnamlabs.com.
+Independent work, no specific funding, carried out while the author held a
+postdoctoral position at the University of Vermont. Dr. Nam H. Le, drnamlabs.com.

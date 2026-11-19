@@ -288,8 +288,8 @@ without the image shards that measurement is NaN and is masked, never assumed.
 
 ## Credit
 
-Work done as a postdoc at the University of Vermont in Prof. Josh Bongard's lab,
-funded by the Army Research Office. Method background:
+Independent work, no specific funding, carried out while the author held a
+postdoctoral position at the University of Vermont. Method background:
 [arXiv:2509.10660](https://arxiv.org/abs/2509.10660),
 [arXiv:2610.02247](https://arxiv.org/abs/2610.02247).
 

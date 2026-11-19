@@ -36,8 +36,8 @@ Background for the language-to-intervention approach used here:
 
 ## This work
 
-Carried out as postdoctoral research at the **University of Vermont**, in **Prof.
-Josh Bongard's** laboratory, funded by the **Army Research Office**.
+Independent work. It received **no specific funding** and was carried out while the
+author held a postdoctoral position at the **University of Vermont**.
 
 Author: Dr. Nam H. Le, drnamlabs.com.
 

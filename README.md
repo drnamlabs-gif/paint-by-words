@@ -37,7 +37,7 @@ The same compound at its eight doses, rendered on **one brightness scale** taken
 from the lowest dose, so the change you see is real and not a contrast artefact.
 This is the archive playing itself; nothing here is modelled:
 
-![one compound climbing its dose ladder](figs/01_dose.gif)
+![one compound climbing its dose ladder](figs/02_dose_series.gif)
 
 ---
 

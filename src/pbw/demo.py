@@ -206,7 +206,7 @@ def dose_gif(compound='ABT-263', channels=(0, 2), size=300, hold=750):
                    fill=FG if on else DIM)
         frames.append((im, hold * (2 if row.dose in (lo, hi) else 1)))
 
-    out = os.path.join(paths.ROOT, 'figs', '01_dose.gif')
+    out = os.path.join(paths.ROOT, 'figs', '02_dose_series.gif')
     os.makedirs(os.path.dirname(out), exist_ok=True)
     images = [i.convert('P', palette=Image.ADAPTIVE, colors=128) for i, _ in frames]
     images[0].save(out, save_all=True, append_images=images[1:],

@@ -29,3 +29,4 @@ paper_aaai/*.log
 paper_aaai/*.out
 paper_aaai/*.bbl
 paper_aaai/*.blg
+outreach/

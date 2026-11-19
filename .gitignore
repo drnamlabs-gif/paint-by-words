@@ -24,3 +24,8 @@ paper/*.log
 paper/*.out
 paper/*.bbl
 paper/*.blg
+paper_aaai/*.aux
+paper_aaai/*.log
+paper_aaai/*.out
+paper_aaai/*.bbl
+paper_aaai/*.blg

@@ -83,7 +83,7 @@ def build(screen):
     def run(wish, top_k, pool):
         return answer(screen, wish, top_k, pool)
 
-    with gr.Blocks(title='paint-by-words', theme=gr.themes.Soft()) as demo:
+    with gr.Blocks(title='paint-by-words') as demo:
         gr.Markdown(
             '# paint-by-words\n'
             'Ask a cell-image archive for a phenotype in plain English. '
@@ -107,8 +107,8 @@ def build(screen):
         table = gr.Dataframe(label='ranked (compound, dose)', wrap=True)
         plot = gr.Plot(label='dose response of the top hit')
         gr.Examples(EXAMPLES, inputs=wish)
-        go.click(run, [wish, top_k, pool], [notes, table, plot])
-        wish.submit(run, [wish, top_k, pool], [notes, table, plot])
+        go.click(run, [wish, top_k, pool], [notes, table, plot], api_name='ask')
+        wish.submit(run, [wish, top_k, pool], [notes, table, plot], api_name=False)
     return demo
 
 
@@ -119,7 +119,9 @@ def main():
     ap.add_argument('--share', action='store_true')
     ap.add_argument('--port', type=int, default=7860)
     a = ap.parse_args()
-    build(Screen(device=a.device)).launch(server_port=a.port, share=a.share)
+    import gradio as gr
+    build(Screen(device=a.device)).launch(server_port=a.port, share=a.share,
+                                          theme=gr.themes.Soft())
 
 
 if __name__ == '__main__':

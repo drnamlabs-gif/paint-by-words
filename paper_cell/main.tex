@@ -40,25 +40,20 @@ language-conditioned phenotype prediction in Cell Painting}}
 
 \section*{Summary}
 
-Image-based profiling archives are indexed by the perturbation applied, not by the
-cellular state produced, so re-using them to answer a new question usually means a new
-screen. We asked whether such an archive can instead be addressed by outcome, stated in
-ordinary language, and built a system that maps an English description of a desired
-cellular appearance to a compound, a dose, and a refusal when the library contains
-nothing suitable. On RxRx3-core it reached an area under the curve (AUC) of
-$0.842/0.873$ on compounds whose chemical scaffold it had never seen. Scoring the same
-predictions with a baseline that never reads the request, constructed from the model's
-own prediction for \goal{kill most of the cells}, gave $0.833/0.855$. The cause is that
-per-cell features are averaged over segmented survivors, so dying cells read brighter
-per unit area: against a 3.5\% base rate of cell loss, 64--69\% of wells satisfying a
-per-cell \goal{brighter} predicate had also lost cells. Redefining each predicate to
-require surviving cells lowers the headline to $0.799/0.861$ and multiplies the margin
-over that baseline tenfold. The same confound recurs in L1000 transcriptomics as a
-nonspecific response. Retrieval by example in a learned image representation outperforms
-the model wherever candidates have already been imaged, but scores them using measurements
-that define their own labels, so the two answer different questions. We propose that a
-request-blind baseline, and a statement of whether a baseline can see the label's own
-measurement, be reported alongside every result in this setting.
+Archives of perturbation experiments are indexed by the intervention that was applied
+rather than by the cellular state it produced, so asking an old archive a new question
+usually requires a new screen. Re-using one means manufacturing supervision from
+measurements made for another purpose, which turns the definition of success into a
+modelling choice that is rarely examined. Here we show that in image-based profiling this
+choice silently substitutes the archive's dominant axis of variation for the phenotype
+requested, so that a scorer which never reads the request matches a model trained to
+answer it. The substitution is mechanical: per-cell statistics average over the cells
+that remain, and dying cells read brighter. Requiring surviving cells lowers apparent
+accuracy while revealing a smaller but genuine effect, and the same pattern recurs in
+transcriptomic profiling. A retrieval baseline whose candidates are already imaged
+outperforms prediction from structure, but detects rather than predicts. Benchmarks
+assembled from repurposed measurements inherit their purpose, and a few costless controls
+should be standard.
 
 \section*{Highlights}
 \begin{itemize}[leftmargin=1.2em,itemsep=0.15em]
@@ -175,7 +170,9 @@ places salts and close analogues on both sides and reports interpolation
 
 Under the literal reading of the per-cell features, the system reached AUC $0.842$ on
 unseen phrasings and $0.873$ on unseen concepts. The request-blind baseline reached
-$0.833$ and $0.855$. The behaviour-specific contribution was $+0.010/+0.018$
+$0.833$ and $0.855$. The behaviour-specific contribution was $+0.010/+0.018$;
+paired over the 75 held-out requests it is $+0.015$, 95\% CI $[-0.002, +0.036]$, Wilcoxon
+signed-rank $p = 0.24$, and so is not distinguishable from zero
 (Table~\ref{tab:main}, Figure~\ref{fig:baselines}). Read without the control, this is a
 respectable phenotype model; read with it, it is a cytotoxicity detector with a language
 interface.
@@ -246,7 +243,8 @@ asks for cell loss keeps the literal meaning, since there is nothing left to pro
 Under this definition the set of requests that nothing in the archive satisfies grows from
 25 to 37, because conjunctions such as \goal{bigger nuclei and brighter mitochondria} occur
 only in dying cells. The headline falls and the margin over the request-blind baseline
-rises tenfold (Table~\ref{tab:main}).
+rises tenfold: paired over the 64 held-out requests it is $+0.085$, 95\% CI
+$[+0.049, +0.123]$, $p = 1\times10^{-6}$ (Table~\ref{tab:main}).
 
 \subsection{The response exists in a dose window}
 
@@ -337,7 +335,8 @@ same unseen-scaffold groups and the same held-out requests as the model.
 
 Retrieval wins, and not narrowly: AUC $0.918$ on unseen concepts and $0.851$ on unseen
 phrasings, against $0.861$ and $0.799$ for the goal-conditioned model, which beats it on
-only 13 of 64 requests (median difference $-0.044$). Five example wells suffice; the
+only 13 of 64 requests. Paired over requests, retrieval exceeds the model by $+0.054$,
+95\% CI $[+0.025, +0.084]$, $p = 4\times10^{-5}$. Five example wells suffice; the
 five-shot prototype matches the one built from every training positive
 (Table~\ref{tab:retrieval}).
 
@@ -345,7 +344,8 @@ That comparison, however, is not between two solutions to one problem. Retrieval
 candidate group using measurements taken \emph{on that same group}, and the label of that
 group is a function of those measurements. Running the identical retrieval on the eight
 engineered features from which the labels are themselves computed makes the point
-quantitative: it reaches $0.966/0.961$. We report that arm as a \emph{leakage control}
+quantitative: it reaches $0.966/0.961$, exceeding the learned-representation retrieval by
+$+0.073$, 95\% CI $[+0.043, +0.105]$, $p = 4\times10^{-4}$. We report that arm as a \emph{leakage control}
 rather than as a competitor, because at that point the score is the label being read back
 rather than inferred, and it bounds how much of any image-space retrieval score is the
 same thing.
@@ -444,8 +444,8 @@ evaluation pool, because extreme-value statistics are not. Fourth, and most easi
 state whether a baseline has access to the measurement that defines the label. A retrieval
 baseline scored on wells that have already been imaged is detecting, not predicting, and
 running the same retrieval in the feature space the labels are computed from gives the
-leakage ceiling, which here was $0.96$. Comparing a detector and a predictor on a single
-axis of AUC answers no question that anyone asked.
+leakage ceiling, which here was $0.96$. Comparing a detector with a predictor on a single
+axis of AUC conflates two different questions.
 
 The positive result that survives these controls is real but modest: about $+0.10$ AUC over
 a scorer that ignores the request, a doubled hit rate at an eight-well budget, and access to
@@ -545,7 +545,10 @@ groups and accuracy would be dominated by the base rate. Comparisons between the
 the request-blind baseline are paired over requests; the eight-well comparison uses
 McNemar's exact test, and confidence intervals come from a bootstrap over requests with
 5,000 resamples. Reported figures are five-seed ensembles with the scaffold split held
-fixed across seeds.
+fixed across seeds. The confidence intervals are therefore over requests and are
+conditional on that one split; they do not include the variance contributed by the choice
+of split, which would require refitting across several scaffold partitions and which we
+have not done.
 
 \section*{Resource availability}
 

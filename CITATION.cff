@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: >-
+  paint-by-words: goal-conditioned intervention retrieval from a Cell Painting archive
+message: If you use this software or its evaluation protocol, please cite it.
+type: software
+authors:
+  - family-names: Le
+    given-names: Nam H.
+    orcid: https://orcid.org/0000-0002-6862-9257
+    affiliation: Department of Computer Science, University of Vermont
+    email: nam.le@uvm.edu
+repository-code: https://github.com/drnamlabs-gif/paint-by-words
+url: https://drnamlabs.com
+abstract: >-
+  Ask a cell-image archive for a phenotype in plain English and get a compound, a dose
+  and the evidence, or a refusal. Built on RxRx3-core. Includes the measurement finding
+  that per-cell CellProfiler features, being averaged over segmented survivors, are
+  entangled with cell death strongly enough that a baseline which never reads the
+  request accounts for almost all of the apparent accuracy, together with the one-line
+  control that detects it and the redefinition that removes it.
+keywords:
+  - Cell Painting
+  - high-content screening
+  - phenotypic drug discovery
+  - language-conditioned control
+  - evaluation
+  - trivial baselines
+  - selective prediction
+  - dose response
+license: MIT

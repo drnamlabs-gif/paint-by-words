@@ -1,0 +1,39 @@
+{
+  "title": "paint-by-words: goal-conditioned intervention retrieval from a Cell Painting archive, with calibrated refusal",
+  "upload_type": "software",
+  "description": "<p>Ask a cell-image archive for a phenotype in plain English. Get a compound, a dose and the evidence, or a refusal. Built on RxRx3-core (Recursion), which is not redistributed here.</p><p>The repository includes the paper <em>Most of It Was Toxicity</em>, which reports a measurement artefact affecting per-cell morphological features: they are averaged over the cells that can be segmented, which are the survivors, and a dying cell reads brighter per unit area. Against a 3.5% base rate of cell loss, 64% to 69% of wells satisfying a per-cell &quot;brighter&quot; predicate had also lost their cells. A baseline built from the model's own prediction for &quot;kill most of the cells&quot;, which never reads the request, scored AUC 0.833 where the model scored 0.842; redefining each predicate to require surviving cells lowers the headline to 0.799 and raises the margin tenfold. The same confound recurs in LINCS L1000 transcriptomics as nonspecific transcriptional response.</p><p>Ships the evaluation protocol with both trivial baselines printed beside every number, calibrated refusal, dose windows, the exact prompt used for the vision-language branch, 30 tests, and one command that regenerates every figure and number.</p>",
+  "creators": [
+    {
+      "name": "Le, Nam H.",
+      "affiliation": "Department of Computer Science, University of Vermont",
+      "orcid": "0000-0002-6862-9257"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "Cell Painting",
+    "high-content screening",
+    "phenotypic drug discovery",
+    "language-conditioned control",
+    "evaluation",
+    "trivial baselines",
+    "selective prediction",
+    "dose response",
+    "CellProfiler",
+    "LINCS"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "arXiv:2610.02247",
+      "relation": "isSupplementTo",
+      "scheme": "arxiv"
+    },
+    {
+      "identifier": "arXiv:2509.10660",
+      "relation": "isSupplementTo",
+      "scheme": "arxiv"
+    }
+  ],
+  "notes": "Carried out as postdoctoral research at the University of Vermont in Prof. Josh Bongard's laboratory, with support from the Army Research Office. The RxRx3-core archive is published by Recursion Pharmaceuticals under its end-user licence and is not redistributed in this repository."
+}

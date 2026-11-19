@@ -30,3 +30,5 @@ paper_aaai/*.out
 paper_aaai/*.bbl
 paper_aaai/*.blg
 outreach/
+paper/watermark_check.png
+paper/paper_drnamlabs.pdf

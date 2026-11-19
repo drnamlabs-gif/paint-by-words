@@ -24,8 +24,8 @@
 
 \newcommand{\goal}[1]{\textit{``#1''}}
 
-\title{\vspace{-2em}\textbf{Most of it was toxicity: a request-blind baseline reproduces
-language-conditioned phenotype prediction in Cell Painting}}
+\title{\vspace{-2em}\textbf{Most of it was toxicity: controls that change what a
+language-conditioned phenotype benchmark measures}}
 
 \author{Nam H. Le\,$^{1,2,*}$\\[0.4em]
 \small $^{1}$Department of Computer Science, University of Vermont, Burlington, VT, USA\\
@@ -43,17 +43,17 @@ language-conditioned phenotype prediction in Cell Painting}}
 Archives of perturbation experiments are indexed by the intervention that was applied
 rather than by the cellular state it produced, so asking an old archive a new question
 usually requires a new screen. Re-using one means manufacturing supervision from
-measurements made for another purpose, which turns the definition of success into a
-modelling choice that is rarely examined. Here we show that in image-based profiling this
-choice silently substitutes the archive's dominant axis of variation for the phenotype
-requested, so that a scorer which never reads the request matches a model trained to
-answer it. The substitution is mechanical: per-cell statistics average over the cells
-that remain, and dying cells read brighter. Requiring surviving cells lowers apparent
-accuracy while revealing a smaller but genuine effect, and the same pattern recurs in
-transcriptomic profiling. A retrieval baseline whose candidates are already imaged
-outperforms prediction from structure, but detects rather than predicts. Benchmarks
-assembled from repurposed measurements inherit their purpose, and a few costless controls
-should be standard.
+measurements made for another purpose, so that the definition of success, and the
+baseline it is judged against, quietly decide what is being measured. Here we show that a
+system mapping requested phenotypes to interventions scores well for reasons unrelated to
+the request, and that a few controls costing nothing each overturn a conclusion that would
+otherwise have stood. A scorer blind to the request matches the model, because per-cell
+statistics average over the cells that remain and dying cells read brighter. Requiring
+survival lowers apparent accuracy while revealing a smaller but genuine effect; the same
+dominance recurs in transcriptomic profiling; and a retrieval baseline that outperforms
+prediction from structure turns out to be detecting rather than predicting. We argue that
+a benchmark assembled from repurposed measurements inherits their purpose, and that these
+controls belong beside every number reported from one.
 
 \section*{Highlights}
 \begin{itemize}[leftmargin=1.2em,itemsep=0.15em]
@@ -66,16 +66,15 @@ should be standard.
 
 \section*{In brief}
 
-Le shows that per-cell morphological features in Cell Painting are entangled with cell
-death strongly enough that a baseline ignoring the request matches a language-conditioned
-model trained to answer it. Redefining predicates to require surviving cells lowers
-headline accuracy while revealing the genuine, smaller effect, and the same confound
-appears in transcriptomic profiling.
+Le reports a set of controls for benchmarks that ask a cell-image archive for a phenotype
+in plain language. Each costs nothing once a model exists, and each changes a conclusion:
+what the labels measure, what a trivial scorer already reaches, what a screen costs in
+wells, and whether a competing baseline is predicting or merely detecting.
 
 \vspace{0.5em}
 \noindent\textbf{Keywords:} image-based profiling; Cell Painting; high-content screening;
-phenotypic drug discovery; benchmark design; confounding; selective prediction;
-dose response; CellProfiler; LINCS
+phenotypic drug discovery; benchmark design; confounding; trivial baselines; label
+leakage; selective prediction; dose response; CellProfiler; LINCS
 
 \section{Introduction}
 
@@ -115,6 +114,11 @@ is a specific, free control for this data type and a redefinition that removes t
 confound at a measurable cost in apparent accuracy.
 
 \section{Results}
+
+We report the system and, beside it, six controls. Each is free once a model has been
+trained, each is stated together with what it changed, and together they are the claim of
+this paper: in this setting a number read without its control is usually a number about
+something else.
 
 \subsection{A phenotype archive addressed by outcome}
 
@@ -271,7 +275,7 @@ survival-conditioned predicate anywhere, the dose at which the measured effect i
 \label{fig:window}
 \end{figure}
 
-\subsection{Declining is a scored output}
+\subsection{Declining is a scored output, and its statistic must not grow with the pool}
 
 A system that always answers cannot be used for screening. Over 37 requests that nothing in
 the archive satisfies against 64 that something does, the model's own confidence separates
@@ -381,7 +385,7 @@ much of a retrieval score is the answer being read back, not a method.}
 \label{tab:retrieval}
 \end{table}
 
-\subsection{A vision-language model as a second measuring instrument}
+\subsection{A language judge can be reliable and invalid at the same time}
 
 Replacing the engineered measurement with a vision-language model is an increasingly common
 design, so we tested the substitution on the same wells. Two thousand groups were rendered
@@ -440,8 +444,10 @@ solubility, assay interference or sequence length elsewhere, but the control is 
 Second, when a language model is used as a judge, validate it per behaviour against an
 independent instrument and publish the table rather than a mean; reliability is not
 validity. Third, check that any confidence statistic is invariant to the size of the
-evaluation pool, because extreme-value statistics are not. Fourth, and most easily missed,
-state whether a baseline has access to the measurement that defines the label. A retrieval
+evaluation pool, because extreme-value statistics are not. Fourth, report what a ranking saves in the unit the
+experiment is actually run in, because a ranking metric and a screening budget disagree
+here over most of their range. Fifth, and most easily missed, state whether a baseline has
+access to the measurement that defines the label. A retrieval
 baseline scored on wells that have already been imaged is detecting, not predicting, and
 running the same retrieval in the feature space the labels are computed from gives the
 leakage ceiling, which here was $0.96$. Comparing a detector with a predictor on a single
